@@ -2,9 +2,11 @@ html {
     /*background-image: url("http://sf.co.ua/14/01/wallpaper-1681949.jpg");*/
     background-image: url("/images/bgimg.jpg");
     background-size: cover;
+    height: 100%;
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    height: 100%;
 }
 .row {
     margin-top: 0px;
@@ -20,6 +22,7 @@ body {
 .logo-content {
     margin: auto;
     height: 100vh;
+    -webkit-height: 100vh;
     padding-top: 10%;
     padding-bottom: 15%;
 }
@@ -100,9 +103,9 @@ body {
 }
 
 .workshops-content-container td {
-    /*border: 1px solid black;*/
+    color: gray;
     vertical-align: middle;
-    padding: 5px;
+    padding: 10px;
 }
 
 .workshops-content-container table:first-of-type, 
