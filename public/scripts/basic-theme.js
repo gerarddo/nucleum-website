@@ -1,4 +1,16 @@
 
+// For setting the height of first view to that of the screen
+$(document).ready(function() {
+  function setHeight() {
+    windowHeight = $(window).innerHeight();
+    $('.logo-content').css('height', windowHeight);
+  };
+  setHeight();
+  
+  $(window).resize(function() {
+    setHeight();
+  });
+});
 
 // $(document).ready(function(){
 
