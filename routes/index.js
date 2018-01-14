@@ -7,7 +7,7 @@ const workshops = info.workshops
 const visits = info.visits
 
 router.get("/", function(req, res){
-    res.render("homepage/homepage", {homepage: true})
+    res.render("homepage/homepage", {homepage: true, panelists: panelists})
 }); //router.get
 
 router.get("/panelists", function(req, res){
