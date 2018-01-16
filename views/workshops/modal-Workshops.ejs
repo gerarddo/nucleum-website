@@ -1,0 +1,29 @@
+<div class="container-fluid">
+
+	<% workshops.forEach( (workshop) => { %>
+		<div class="row">
+			<div class="container-fluid workshop-content">
+					<h1> <%= workshop.name %> </h1>
+					<h2> <%= workshop.teacher %> </h2>
+					<div class="row">
+						<% workshop.schedules.forEach( (schedule) => { %>
+							<h4> <%= schedule %> </h4>
+						<% })%>
+					</div>
+					<br>
+					<img class="img-responsive workshop-img" src=" <%= workshop.image %>">
+					<br>
+					<p class="text-justify"> <%= workshop.body %></p>
+			</div>
+
+
+		</div> <!-- .row -->
+	<%})%>	
+		<div class="row">
+		<div class="col-1-1">
+	    	<button class="btn btn-default close-workshops-modal">Close</button>
+		</div>
+	</div>
+</div>
+
+

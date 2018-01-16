@@ -23,9 +23,21 @@
 
 }
 
+#open-panelists-modal {
+    cursor: pointer;
+}
+.open-workshops-modal {
+    cursor: pointer;
+}
+
+
 /* The Close Button */
-.close {
-    /*color: #aaaaaa;*/
+.close-panelists-modal {
+    display: block;
+    margin: auto
+}
+
+.close-workshops-modal {
     display: block;
     margin: auto
 }
