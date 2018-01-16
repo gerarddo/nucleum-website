@@ -7,15 +7,23 @@ const workshops = info.workshops
 const visits = info.visits
 
 router.get("/", function(req, res){
-    res.render("homepage/homepage", {homepage: true, panelists: panelists, workshops: workshops})
+    res.render("homepage/homepage", {homepage: true, panelists: panelists, workshops: workshops, visits: visits})
 }); //router.get
 
-router.get("/panelists", function(req, res){
-    res.render("panelists/panelists", {panelists: panelists, homepage: false})
+router.get("/foreigners", function(req, res){
+    res.render("foreigners", {homepage: false})
 }); //router.get
 
-router.get("/workshops", function(req, res){
-    res.render("workshops", {workshops: workshops, homepage: false})
+router.get("/schedules", function(req, res){
+    res.render("schedules", {homepage: false})
+}); //router.get
+
+router.get("/tickets", function(req, res){
+    res.render("tickets", {homepage: false})
+}); //router.get
+
+router.get("/legal", function(req, res){
+    res.render("legal", {homepage: false})
 }); //router.get
 
 router.get("*", function(req, res){

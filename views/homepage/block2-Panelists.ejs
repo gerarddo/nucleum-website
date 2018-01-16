@@ -24,24 +24,26 @@
 						<div class="panelists-content-container">
 							<div class="row text-center" id="open-panelists-modal">
 								<div class="col-1-2 nucleum-gray-1">
-									<h3>Panelist 1</h3>
-									<p>Lorem Ipsum is simply dummy text typesetting industry. Lorem Ipsum has been the industry's standard</p>
+									<h3> <%= panelists[0].name%></h3>
+									<p> <%= panelists[0].caption%></p>
 								</div>
 								<div class="col-1-2 nucleum-gray-2">
-									<h3>Panelist 2</h3>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+									<h3> <%= panelists[1].name%></h3>
+									<p> <%= panelists[1].caption%></p>
 								</div>
 								<div class="col-1-2 nucleum-gray-2">
-									<h3>Panelist 3</h3>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+									<h3> <%= panelists[2].name%></h3>
+									<p> <%= panelists[2].caption%></p>
 								</div>
 								<div class="col-1-2 nucleum-gray-3">
-									<h3>Panelist 4</h3>
-									<p>Lorem printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+									<h3> <%= panelists[3].name%></h3>
+									<p> <%= panelists[3].caption%></p>
 								</div>
 								<div class="col-1-1 nucleum-gray-1">
-									<h3>Panelist 5</h3>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+									<div class="last-panelist">
+										<h3> <%= panelists[4].name%></h3>
+										<p> <%= panelists[4].caption%></p>										
+									</div>
 								</div>
 							</div>
 						</div>
@@ -53,7 +55,7 @@
 
   <!-- Modal content -->
   <div class="modal-content-container container">
-    <% include ../panelists/modal-Panelists %>
+    <% include ../modals/modal-Panelists %>
   </div>
 
 </div>
