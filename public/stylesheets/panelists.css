@@ -1,0 +1,16 @@
+
+
+.panelistm-img-container img {
+	margin: auto;
+}
+
+
+
+@media screen and (max-width: 800px){
+    .panelistm-info-container {
+    	width: 100%;
+    }
+    .panelistm-img-container {
+    	width: 100%;
+    }
+}

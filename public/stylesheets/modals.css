@@ -2,8 +2,9 @@
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    z-index: 4; /* Sit on top */
+    padding-top: 30px;
+    padding-bottom: 30px;
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -15,19 +16,18 @@
 
 /* Modal Content */
 .modal-content {
+
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+
 }
 
 /* The Close Button */
 .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+    /*color: #aaaaaa;*/
+    display: block;
+    margin: auto
 }
 
 .close:hover,

@@ -1,27 +1,23 @@
-<!-- <div class="container"> -->
+
 <div class="container-fluid">
 
-
 	<% panelists.forEach( (panelist) => { %>
-
 		<div class="row">
-			<div class=".col-1-1">
-
-				<div class="container-fluid workshop-content panelist-content clearfix">
-					<div class="col-2-3">
-							<h2 class="pull-left"> <%= panelist.name %> </h2>
-							<p class="pull-left text-justify"> <%= panelist.body %></p>
-						</div>
-						<div class="col-1-3">
-							<img class="img-responsive panelist-img" src=" <%= panelist.image %>">
-					</div>
-				</div>
+			<div class="col-2-3 panelistm-info-container">
+				<h2 class="pull-left"> <%= panelist.name %> </h2>
+				<p class="pull-left text-justify"> <%= panelist.body %></p>
+			</div>
+			<div class="col-1-3 panelistm-img-container">
+				<img class="img-responsive" src=" <%= panelist.image %>">
 			</div>
 		</div>
-
-	
 	<%})%>
 
+	<div class="row">
+		<div class="col-1-1">
+	    	<button class="btn btn-default close">Close</button>
+		</div>
+	</div>
 
 </div>
 	
