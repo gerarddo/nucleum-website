@@ -1,0 +1,27 @@
+<div class="container-fluid">
+	<% visits.forEach( (visit) => { %>
+		<div class="row">
+			<div class="container-fluid workshopm-content-container text-center" >
+					<h1> <%= visit.name %> </h1>
+					<div class="row">
+						<% visit.schedules.forEach( (schedule) => { %>
+							<h4> <%= schedule %> </h4>
+						<% })%>
+					</div>
+					<br>
+					<div>
+						<img style="max-height: 150px;" class="img-responsive" src=" <%= visit.image %>">						
+					</div>
+					<br>
+					<p class="text-justify"> <%= visit.body %></p>
+			</div>
+		</div> <!-- .row -->
+	<%})%>	
+		<div class="row">
+		<div class="col-1-1">
+	    	<button class="btn btn-default close-visits-modal">Close</button>
+		</div>
+	</div>
+</div>
+
+

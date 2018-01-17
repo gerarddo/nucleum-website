@@ -12,46 +12,46 @@
 
       <div class="workshops-content-container text-center">
 
-        <table>
+        <table class="open-workshops-modal">
           <tr> 
-            <td class="nucleum-gray-3 open-workshops-modal"> <%= workshops[0].name%></td>
-            <td class="nucleum-gray-2 open-workshops-modal"> <%= workshops[1].name%></td>
-            <td class="nucleum-gray-1 open-workshops-modal"> <%= workshops[2].name%></td>
-            <td class="nucleum-gray-2 open-workshops-modal"> <%= workshops[3].name%></td>
+            <td class="nucleum-gray-3"> <%= workshops[0].name%></td>
+            <td class="nucleum-gray-2"> <%= workshops[1].name%></td>
+            <td class="nucleum-gray-1"> <%= workshops[2].name%></td>
+            <td class="nucleum-gray-2"> <%= workshops[3].name%></td>
           </tr>
         </table>
 
 
-        <table>
+        <table class="open-workshops-modal">
           <tr>
-            <td class="nucleum-gray-3 open-workshops-modal"> <%= workshops[4].name%></td>
-            <td class="nucleum-gray-2 open-workshops-modal"> <%= workshops[5].name%></td>
-            <td class="nucleum-gray-1 open-workshops-modal"> <%= workshops[6].name%></td>
-            <td class="nucleum-gray-2 open-workshops-modal"> <%= workshops[7].name%></td>
-            <td class="nucleum-gray-3 open-workshops-modal"> <%= workshops[8].name%></td>
+            <td class="nucleum-gray-3"> <%= workshops[4].name%></td>
+            <td class="nucleum-gray-2"> <%= workshops[5].name%></td>
+            <td class="nucleum-gray-1"> <%= workshops[6].name%></td>
+            <td class="nucleum-gray-2"> <%= workshops[7].name%></td>
+            <td class="nucleum-gray-3"> <%= workshops[8].name%></td>
           </tr>
         </table>
 
-        <table>
+        <table class="open-workshops-modal">
           <tr>
-            <td class="nucleum-gray-2 open-workshops-modal"> <%= workshops[9].name%></td>
-            <td class="nucleum-gray-1 open-workshops-modal"> <%= workshops[10].name%></td>
-            <td class="nucleum-gray-2 open-workshops-modal"> <%= workshops[11].name%></td>
-            <td class="nucleum-gray-3 open-workshops-modal"> <%= workshops[12].name%></td>
+            <td class="nucleum-gray-2"> <%= workshops[9].name%></td>
+            <td class="nucleum-gray-1"> <%= workshops[10].name%></td>
+            <td class="nucleum-gray-2"> <%= workshops[11].name%></td>
+            <td class="nucleum-gray-3"> <%= workshops[12].name%></td>
           </tr>
         </table>
 
       </div>
 
-<!-- The Modal -->
-<div id="workshops-modal" class="modal">
+      <!-- The Modal -->
+      <div id="workshops-modal" class="modal">
 
-  <!-- Modal content -->
-  <div class="modal-content-container container">
-    <% include ../modals/modal-Workshops %>
-  </div>
+        <!-- Modal content -->
+        <div class="modal-content-container container">
+          <% include ../modals/modal-Workshops %>
+        </div>
 
-</div>
+      </div>
 
   	</div>
   </div>

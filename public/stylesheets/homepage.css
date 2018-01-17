@@ -68,6 +68,11 @@
     margin: auto
 }
 
+.panelists-content-container .col-1-2,
+.panelists-content-container .col-1-1 {
+    overflow: scroll;
+}
+
 @media screen and (max-width: 992px){
     .panelists-img-container {display: none;}
     #change-width {width: 100%}

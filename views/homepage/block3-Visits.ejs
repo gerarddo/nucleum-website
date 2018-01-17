@@ -10,7 +10,7 @@
 
       <div class="workshops-content-container text-center">
 
-        <table>
+        <table class="open-visits-modal">
           <tr>
             <td class="nucleum-gray-3 open-workshops-modal"> <%= visits[0].name%></td>
             <td class="nucleum-gray-2 open-workshops-modal"> <%= visits[1].name%></td>
@@ -18,6 +18,16 @@
             <td class="nucleum-gray-2 open-workshops-modal"> <%= visits[3].name%></td>
           </tr>
         </table>
+
+      </div>
+
+      <!-- The Modal -->
+      <div id="visits-modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content-container container">
+          <% include ../modals/modal-Visits %>
+        </div>
 
       </div>
 

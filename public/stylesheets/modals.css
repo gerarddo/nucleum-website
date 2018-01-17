@@ -29,6 +29,9 @@
 .open-workshops-modal {
     cursor: pointer;
 }
+.open-visits-modal {
+    cursor: pointer;
+}
 
 
 /* The Close Button */
@@ -36,8 +39,11 @@
     display: block;
     margin: auto
 }
-
 .close-workshops-modal {
+    display: block;
+    margin: auto
+}
+.close-visits-modal {
     display: block;
     margin: auto
 }

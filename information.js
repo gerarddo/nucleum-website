@@ -41,27 +41,31 @@ router.visits = [
 		schedules: [
 			"Someday from 15:00 to 19:00 (Group 1)",
 			"Some other day from 9:00 to 13:00 (Group 2)"
-		]
+		],
+		image: "https://static.wixstatic.com/media/5d0cbd_3d877c6d2b9546ffb4d8fcdc424652d9.jpg/v1/fill/w_784,h_477,al_c,q_90,usm_0.66_1.00_0.01/5d0cbd_3d877c6d2b9546ffb4d8fcdc424652d9.webp"
 	}, {
 		name: "VIAKEM",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		schedules: [
 			"Someday from 13:00 to 17:00 (Group 1)",
 			"Some other day from 9:00 to 13:00 (Group 2)"
-		]
+		],
+		image: "http://viakem.com/wp-content/uploads/2017/07/Logo-para-FB-800x800.png"
 	}, {
 		name: "Cuauhtémoc Moctezuma/Heineken",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		schedules: [
 			"Someday from 8:00 to 12:00 (Group 1)"
-		]
+		],
+		image: "https://www.ellenmacarthurfoundation.org/assets/images/ce100/Heineken.jpg"
 	}, {
 		name: "Sigma",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		schedules: [
 			"Someday from 8:00 to 12:00 (Group 1)",
 			"Some other day from 8:00 to 12:00 (Group 2)"
-		]
+		],
+		image: "https://seeklogo.com/images/S/Sigma-logo-1351D98B32-seeklogo.com.png"
 	}
 ]
 
