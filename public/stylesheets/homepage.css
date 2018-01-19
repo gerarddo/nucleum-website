@@ -103,6 +103,33 @@
     }
 }
 
+@media screen and (max-width: 360px){
+    .panelists-content-container .col-1-2,
+    .panelists-content-container .col-1-1{
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width: 335px){
+    .panelists-content-container .col-1-2,
+    .panelists-content-container .col-1-1{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .panelists-content-container .col-1-2,
+    .panelists-content-container .col-1-1{
+        font-size: 0.65em;
+    }
+}
+
+@media screen and (max-width: 250px){
+    .panelists-content-container .col-1-2,
+    .panelists-content-container .col-1-1{
+        font-size: 0.6em;
+    }
+}
 
 @media screen and (max-width: 992px){
     .panelists-img-container {display: none;}
