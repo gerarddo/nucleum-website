@@ -7,13 +7,16 @@ openPanelistsModalBtn.onclick = function() { panelistsModal.style.display = "blo
 closePanelistsModalBtn.onclick = function() { panelistsModal.style.display = "none"; }
 
 // When the user clicks anywhere outside of the modal, close it
-
-
-window.onclick = function(event) {
-    if (event.target == panelistsModal) {
+$(".container-body").click((event) => {
+    if (event.target === panelistsModal) {
         panelistsModal.style.display = "none";
+        console.log(event.target)
     }
-}
+})
+
+
+
+
 
 
 
@@ -27,14 +30,15 @@ for(var i = 0; i < openWorkshopsModalBtn.length; i++){
 		workshopsModal.style.display = "block"; 
 	}
 }
+
 closeWorkshopsModalBtn.onclick = function() { workshopsModal.style.display = "none"; }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+$(".container-body").click((event) => {
     if (event.target == workshopsModal) {
         workshopsModal.style.display = "none";
     }
-}
+})
 
 
 
@@ -50,8 +54,8 @@ for(var i = 0; i < openVisitsModalBtn.length; i++){
 closeVisitsModalBtn.onclick = function() { visitsModal.style.display = "none"; }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+$(".container-body").click((event) => {
     if (event.target == visitsModal) {
         visitsModal.style.display = "none";
     }
-}
+})
