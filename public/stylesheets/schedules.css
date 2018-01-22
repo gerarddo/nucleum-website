@@ -1,13 +1,19 @@
-.foreigners-content-container {
+.schedules-content-container {
 
 }
 
-.foreigners-header-container {
+.schedules-content-container img{
+	margin-bottom: 20px;
+}
+
+.schedules-header-container {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 10px;
 
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-bottom: 20px;
+
+	color: white;
 }
 
