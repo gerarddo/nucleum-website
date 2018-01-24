@@ -22,11 +22,39 @@
 	<body>
 
 	<div class="container-body">
-		<div class="container" style="padding-top: 100px; padding-left: 100px;">
-			<h3>Under construction... 😛</h3>
+		<% include partials/navbar %>
+		<% include partials/navbar-back %>
+
+		<div class="container-body">
+			<div class="row">
+				<div class='col-1-1'>
+					<div class="jumbotron nucleum-gray-3">
+						<div class="container" id="current-condition">
+							<p id="location-name"></p>
+							<p id="current-temperature"></p>
+							<img src="">
+						</div>
+						<button id="get-weather">Clima</button>
+					</div> <!-- .jumbotron -->
+				</div> <!-- .col-1-1 -->
+				<div class='col-1-1'>
+					<div class="jumbotron nucleum-gray-2">
+								
+					</div> <!-- .jumbotron -->
+				</div> <!-- .col-1-1 -->
+				<div class='col-1-1'>
+					<div class="jumbotron nucleum-gray-3">
+								
+					</div> <!-- .jumbotron -->
+				</div> <!-- .col-1-1 -->
+			</div>
+ 		<% include partials/footer-view %>
 		</div>
+
 	</div>
 
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script src="/scripts/weather.js"></script>
 
 	</body>
 </html>
