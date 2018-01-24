@@ -88,7 +88,7 @@ function modifyForecast(forecast){
 
 
 	forecast.forEach((weather) => {
-		let date = new Date(weather.dt_txt + " GMT+00:00")
+		let date = new Date(weather.dt_txt + " GMT+06:00")
 		let weekdayIndex = date.getDay()
 
 	    let newWeatherObj = {
