@@ -17,6 +17,7 @@
 			<link rel="stylesheet" href="/stylesheets/main.css">
 			<link rel="stylesheet" href="/stylesheets/foreigners.css">
 			<link rel="stylesheet" href="/stylesheets/nucleum-colors.css">
+			<link rel="stylesheet" href="/stylesheets/weather-icons.min.css">
 
 	</head>
 	<body>
@@ -25,36 +26,40 @@
 		<% include partials/navbar %>
 		<% include partials/navbar-back %>
 
+
+
 		<div class="container-body">
-			<div class="row">
-				<div class='col-1-1'>
-					<div class="jumbotron nucleum-gray-3">
-						<div class="container" id="current-condition">
-							<p id="location-name"></p>
-							<p id="current-temperature"></p>
-							<img src="">
+
+			<div class="jumbotron">
+				<div class="container">
+					<div class="row">
+						<div class="col-1-3 text-center">
+							<div class="container-fluid nucleum-blue-3 weather-content-container">
+								<i class=" <%= iconClass %> "></i>
+								<h2> <%= weather.name %> </h2>
+								<p>Min: <%= weather.main.temp_min %> ºC</p>
+								<p>Actual: <%= weather.main.temp %> ºC</p>
+								<p>Max: <%= weather.main.temp_max %> ºC</p>	
+							</div>
 						</div>
-						<button id="get-weather">Clima</button>
-					</div> <!-- .jumbotron -->
-				</div> <!-- .col-1-1 -->
-				<div class='col-1-1'>
-					<div class="jumbotron nucleum-gray-2">
-								
-					</div> <!-- .jumbotron -->
-				</div> <!-- .col-1-1 -->
-				<div class='col-1-1'>
-					<div class="jumbotron nucleum-gray-3">
-								
-					</div> <!-- .jumbotron -->
-				</div> <!-- .col-1-1 -->
+						<div class="col-1-3">
+							
+						</div>
+						<div class="col-1-3">
+							
+						</div>
+					</div>
+				</div>
 			</div>
+
+			
  		<% include partials/footer-view %>
 		</div>
 
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-	<script src="/scripts/weather.js"></script>
+
 
 	</body>
 </html>

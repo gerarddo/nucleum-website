@@ -349,6 +349,8 @@ ol, ul {
 .jumbotron {
   background-color: #eeeeee;
   display: block;
+  margin: 0;
+  width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 5px;
