@@ -18,17 +18,18 @@ router.get("/foreigners", function(req, res){
 
 	let apiKey = config.apiKey;
 	let city = config.city;
-	let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
-	var weather = {};
+	let units = config.units;
+	let lang = config.lang
+	let url = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=${units}&lang=${lang}`
+	var forecast = [];
 
 	request(url, function (err, response, body) {
 	  	if(err){
 	   		console.log('error:', error);
 	  	} else {
-	    	weather = JSON.parse(body)
-	    	// let iconUrl = getIconUrl(weather)
-	    	console.log(weather)
-	        res.render("foreigners", {homepage: false, weather: weather, iconClass: getIconUrl(weather)})
+	    	forecast = modifyForecast(JSON.parse(body).list)
+	    	console.log(forecast)
+	        res.render("foreigners", {homepage: false, forecast: forecast})
 	  	}
 	});
 
@@ -69,3 +70,58 @@ function getIconUrl(obj){
 
   return icon
 }
+
+function modifyForecast(forecast){
+
+	var weekForecast = [[],[],[],[],[],[]]
+	var weekdays = new Array(7);
+	weekdays[0] = "Domingo";
+	weekdays[1] = "Lunes";
+	weekdays[2] = "Martes";
+	weekdays[3] = "Miércoles";
+	weekdays[4] = "Jueves";
+	weekdays[5] = "Viernes";
+	weekdays[6] = "Sábado";
+
+	var lastWeekdayIndex = -1
+	var index = -1
+
+
+	forecast.forEach((weather) => {
+		let date = new Date(weather.dt_txt + " GMT+00:00")
+		let weekdayIndex = date.getDay()
+
+	    let newWeatherObj = {
+	    	temp: weather.main.temp,
+	    	temp_min: weather.main.temp_min,
+	    	temp_max: weather.main.temp_max,
+	    	humidity: weather.main.humidity,
+	    	icon_class: getIconUrl(weather),
+	    	weekday: weekdays[weekdayIndex],
+	    	hour: date.getHours()
+	    }
+
+
+	    if(weekdayIndex === lastWeekdayIndex ){
+	    	weekForecast[index].push(newWeatherObj)
+	    } else {
+	    	lastWeekdayIndex = weekdayIndex
+	    	index++
+	    	weekForecast[index].push(newWeatherObj)
+	    }
+
+	})
+
+	return weekForecast
+
+}
+
+
+
+
+
+
+
+
+
+
