@@ -59,3 +59,9 @@ body {
     .sexy_line { display: block; }
 
 }
+
+@media screen and (max-width: 767px) {
+  .container-body {
+    padding-top: 46px;
+  }
+}

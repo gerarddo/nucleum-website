@@ -35,46 +35,21 @@
 					<div class="row nucleum-blue-2">
 						<div class="col-1-3 text-center">
 							<div class="container-fluid nucleum-blue-3 weather-content-container">
-								<% weatherToday = forecast[0]%>
-								<% forecast.shift() %>
-
-								<h2> <%= weatherToday[0].weekday %> </h2>
-								<h3> <%= weatherToday[0].hour %> hrs</h3>
-								<i class=" <%= weatherToday[0].icon_class %> "></i>
-								<p>Min: <%= weatherToday[0].temp_min %> ºC</p>
-								<p>Actual: <%= weatherToday[0].temp %> ºC</p>
-								<p>Max: <%= weatherToday[0].temp_max %> ºC</p>
-								<hr>
-
-								<% weatherToday.shift() %>
-								<table style="margin: auto">
-									<% weatherToday.forEach((weather) => { %>
-										<tr>
-											<td><%= weather.hour %> hrs:</td>
-											<td><%= weather.temp %> ºC</td>
-										</tr>
-									<% }) %>
-								</table>
-
+								<h2> <%= forecast[0].weekday %> </h2>
+								<i class=" <%= forecast[0].icon_class %> "></i>
+								<p><%= today.weather[0].description %></p>
+								<p><%= today.main.temp %> ºC</p>
+								<p><%= today.main.humidity %> % de humedad en el aire</p>
 							</div>
 						</div>
-
-						<div class="col-2-3">
-							<div class="row">
-								
+						<div class="col-2-3 text-center">
+							<div class="nucleum-blue-2 forecast-content-container">
 								<% forecast.forEach((weatherLater) => { %>
-									<div style="width: 20%;float: left">
-										<table style="margin: auto">
-
-											<h3 class="text-center"> <%= weatherLater[0].weekday %></h3>
-
-											<% weatherLater.forEach((weather) => { %>
-												<tr>
-													<td><%= weather.hour %> hrs:</td>
-													<td><%= weather.temp %> ºC</td>
-												</tr>	
-											<% }) %>
-										</table>
+									<div class="weekday-content-container">
+										<h3> <%= weatherLater.weekday %></h3>
+										<i class=" <%= weatherLater.icon_class %> "></i>
+										<p> <%= weatherLater.temp_max %> ºC </p>
+										<p> <%= weatherLater.temp_min %> ºC </p>
 									</div>
 								<% }) %>
 							</div>
@@ -84,9 +59,9 @@
 			</div>
 
 			
- 		<% include partials/footer-view %>
-		</div>
 
+		</div>
+ 		<% include partials/footer-view %>
 
 
 	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
