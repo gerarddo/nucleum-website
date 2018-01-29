@@ -7,11 +7,18 @@ const config = require('../config/weather.js')
 const weatherIcons = require("../weather-icons.json")
 
 const panelists = info.panelists
+const business = info.business
 const workshops = info.workshops
 const visits = info.visits
 
 router.get("/", function(req, res){
-    res.render("homepage/homepage", {homepage: true, panelists: panelists, workshops: workshops, visits: visits})
+    res.render("homepage/homepage", {
+    	homepage: true, 
+    	panelists: panelists,
+    	business: business, 
+    	workshops: workshops, 
+    	visits: visits
+    })
 }); //router.get
 
 router.get("/foreigners", function(req, res){

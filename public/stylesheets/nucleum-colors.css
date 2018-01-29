@@ -46,6 +46,103 @@
 	background-color: #F4F4F4 !important;
 }
 
+.nucleum-black-1 {
+	background-color: rgb(0,0,0) !important;
+}
+
+.nucleum-black-2 {
+	background-color: rgb(20,20,20) !important;
+}
+
+.nucleum-black-3 {
+	background-color: rgb(40,40,40) !important;
+}
+
 .nucleum-yellow-1 {
 	background-color: #FFDA41 !important;
+}
+
+
+.nucleum-blue-dark {
+	background-color: #206060 !important;
+}
+
+.nucleum-green-dark {
+	background-color: #4B6422 !important;
+}
+
+.nucleum-yellow-dark {
+	background-color: #806D21 !important;
+}
+
+.nucleum-orange-dark {
+	background-color: #7A4124 !important;
+}
+
+.nucleum-blue-darktr {
+	background-color: rgba(32,96,96,0.95) !important;
+}
+
+.nucleum-green-darktr {
+	background-color: rgba(75,100,34,0.95) !important;
+}
+
+.nucleum-yellow-darktr {
+	background-color: rgba(128,109,33,0.95) !important;
+}
+
+.nucleum-orange-darktr {
+	background-color: rgba(122,65,36,0.95) !important;
+}
+
+
+.nucleum-blue-1tr {
+	background-color: rgba(56,172,172,0.95) !important;
+}
+
+.nucleum-blue-2tr {
+	background-color: rgba(63, 193, 193, 0.95) !important;
+}
+
+.nucleum-blue-3tr {
+	background-color: rgba(70,212,213, 0.95) !important;
+}
+
+.nucleum-green-1tr {
+	background-color: rgba(130, 178, 56, 0.95) !important;
+}
+
+.nucleum-green-2tr {
+	background-color: rgba(148, 200, 64, 0.95) !important;
+}
+
+.nucleum-green-3tr {
+	background-color: rgba(168,220,73,0.95) !important;
+}
+
+.nucleum-yellow-3tr {
+	background-color: rgba(255,218,65,0.95) !important;
+}
+
+.nucleum-orange-1tr {
+	background-color: rgba(233, 111, 60, 0.95) !important;
+}
+
+.nucleum-orange-2tr {
+	background-color: rgba(243, 127, 68, 0.95) !important;
+}
+
+.nucleum-orange-3tr {
+	background-color: rgba(249,144,78,0.95) !important;
+}
+
+
+
+
+.nucleum-black-dark {
+	background-color: rgba(0,0,0,.95);
+}
+
+.nucleum-dark {
+	background-color: rgba(20,20,20,.75);
 }

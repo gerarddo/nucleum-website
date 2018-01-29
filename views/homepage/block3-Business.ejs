@@ -1,0 +1,44 @@
+
+<div class="row nucleum-dark" id="block3">
+  <div class='col-1-1'>
+  	<div class="container">
+  		<div class="business-header-container">
+  			<div class="container-fluid nucleum-blue-1tr">
+				<h3 class="text-center">Nucleum Business</h3>
+			</div>
+  		</div>
+
+      <div class="business-content-container text-center">
+
+        <table class="open-visits-modal">
+          <tr>
+            <!-- <td class="nucleum-black-3"> <%= visits[0].name%></td> -->
+            <!-- <td class="nucleum-black-2"> <%= visits[1].name%></td> -->
+            <!-- <td class="nucleum-black-1"> <%= visits[2].name%></td> -->
+            <!-- <td class="nucleum-black-2"> <%= visits[3].name%></td> -->
+            <td> <%= business[0].name%></td>
+			<td> <%= business[1].name%></td>
+			<td> <%= business[2].name%></td>
+			<td> <%= business[3].name%></td>
+          </tr>
+        </table>
+
+      </div>
+
+
+
+<!-- You have to modify what is below this line -->
+
+      <!-- The Modal -->
+      <div id="visits-modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content-container container">
+          <% include ../modals/modal-Visits %>
+        </div>
+
+      </div>
+
+  	</div>
+  </div>
+</div>
