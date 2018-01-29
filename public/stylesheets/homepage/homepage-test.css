@@ -158,7 +158,7 @@ html {
 }
 .business-content-container{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .business-content-container table {
@@ -176,6 +176,29 @@ html {
     color: white;
     vertical-align: middle;
     padding: 10px;
+}
+
+.open-help-modal {
+    color: gray;
+    display: block;
+    margin: auto;
+    max-width: 220px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    background-color: rgba(0,0,0,0.9);
+
+    -webkit-transition-duration: 0.3s;
+       -moz-transition-duration: 0.3s;
+         -o-transition-duration: 0.3s;
+}
+
+.open-help-modal:hover {
+    color: white;
+
+    -webkit-transition-duration: 0.3s;
+       -moz-transition-duration: 0.3s;
+         -o-transition-duration: 0.3s;
 }
 
 .business-content-container table:first-of-type, 
