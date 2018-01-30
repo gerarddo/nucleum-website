@@ -62,3 +62,29 @@
 	
 	
 })();
+
+
+// n=0;
+// x=3;
+
+// setInterval(function() { 
+    
+//     if (n < x - 1){
+//     	n++;
+//     } else {
+//     	n=0;
+//     }
+
+//     var url = imgUrl(n)
+
+// 	$('.slider-wrapper img').fadeOut(400, function() {
+// 	    $('.slider-wrapper img').attr('src', url).fadeIn();
+// 	});
+
+// },  7000)
+
+
+// function imgUrl(n){
+// 	let baseUrl = "images/panelists/slideshow/slideshow-"
+// 	return baseUrl + String(n) + ".jpg"
+// }
