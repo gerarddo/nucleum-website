@@ -41,6 +41,23 @@
         }
     })
 
+    //Help
+
+        var helpModal = document.getElementById('help-modal');
+        var openHelpModalBtn = document.getElementById("open-help-modal");
+        var closeHelpModalBtn = $(".close-help-modal")[0];
+
+        openHelpModalBtn.onclick = function() { helpModal.style.display = "block"; }
+        closeHelpModalBtn.onclick = function() { helpModal.style.display = "none"; }  
+
+        // When the user clicks anywhere outside of the modal, close it
+        $(".container-body").click((event) => {
+            if (event.target === helpModal) {
+                helpModal.style.display = "none";
+                console.log(event.target)
+            }
+        })
+
 // Workshops
 
     var workshopsModal = document.getElementById('workshops-modal');

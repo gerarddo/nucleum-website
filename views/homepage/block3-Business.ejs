@@ -23,13 +23,20 @@
           </tr>
         </table>
 
-       <div class="open-help-modal">
+        <div id="open-help-modal">
        	¿Qué es Nucleum Business?
-       </div>
-		
+        </div>
 
       </div>
+      <!-- The Modal -->
+      <div id="help-modal" class="modal">
 
+        <!-- Modal content -->
+        <div class="modal-content-container container close-help-modal">
+          <% include ../modals/modal-Help %>
+        </div>
+
+      </div>
 
       <!-- The Modal -->
       <div id="business-modal" class="modal">
