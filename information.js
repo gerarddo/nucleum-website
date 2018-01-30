@@ -6,31 +6,31 @@ router.panelists = [
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		schedules: "October the 21st at 15:00",
 		caption: "Licenciado y Doctor en Química de Alimentos por la UNAM y Tecnologías de los Alimentos por la Universidad Iberoamericana.",
-		image: "/images/panelists/frambuesa.png"
+		image: "/images/panelists/panelist-test.png"
 	}, {
 		name: "Andrew Pelling", 
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		schedules: "October the 21st at 15:00",
 		caption: "Fundó y dirige un laboratorio de investigación basado en la curiosidad. Ha creado partes del cuerpo humano hechas de plantas.",
-		image: "/images/panelists/manzana.png"
+		image: "/images/panelists/panelist-test.png"
 	}, {
 		name: "Andrew Hessel",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		schedules: "October the 21st at 15:00",
 		caption: "Andrew Hessel es un futurista en tecnologías biológicas, ayudando a la industria a entender mejor los cambios que ocurren en las ciencias.",
-		image: "/images/panelists/drcyborg.png"
+		image: "/images/panelists/panelist-test.png"
 	}, {
 		name: "Armando Román",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		schedules: "October the 21st at 15:00",
 		caption: "Actualmente está trabajando en el desarrollo de una silla de ruedas controlada por medio de señales cerebrales.",
-		image: "/images/panelists/hessel.png"
+		image: "/images/panelists/panelist-test.png"
 	}, {
 		name: "Sigma Alimentos",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		schedules: "October the 21st at 15:00",
 		caption: "Los alimentos de origen animal se consideran valiosos por la calidad de su proteína y el suministro de micronutrientes que aportan al ser humano.",
-		image: "/images/panelists/sigma.png"
+		image: "/images/panelists/panelist-test.png"
 	}
 ]
 
@@ -39,27 +39,27 @@ router.business = [
 		name: "Nanomateriales S.A. de C.V.", 
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		schedules: "October the 21st at 15:00",
-		image: "/images/panelists/frambuesa.png"
+		image: "/images/business/business-test.png"
 	}, {
 		name: "Genius Food", 
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		schedules: "October the 21st at 15:00",
-		image: "/images/panelists/manzana.png"
+		image: "/images/business/business-test.png"
 	}, {
 		name: "Dharma Mushrooms",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		schedules: "October the 21st at 15:00",
-		image: "/images/panelists/drcyborg.png"
+		image: "/images/business/business-test.png"
 	}, {
 		name: "Maseca",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		schedules: "October the 21st at 15:00",
-		image: "/images/panelists/hessel.png"
+		image: "/images/business/business-test.png"
 	}, {
 		name: "Biolets",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		schedules: "October the 21st at 15:00",
-		image: "/images/panelists/sigma.png"
+		image: "/images/business/business-test.png"
 	}
 ]
 
@@ -103,7 +103,7 @@ router.workshops = [
 		name: "Producción de cerveza artesanal",
 		teacher: "Cervecería Obelisco",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		image: "/images/workshops/img1.jpg",
+		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"Someday from 15:00 to 17:00 (Group 1)",
 			"Some other day from 11:00 to 13:00 (Group 2)"
@@ -112,7 +112,7 @@ router.workshops = [
 		name: "Elaboración de crema de avellana",
 		teacher: "Dra. Rebeca García",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		image: "/images/workshops/img2.jpg",
+		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"Someday from 15:00 to 17:00 (Group 1)"
 		]
@@ -120,7 +120,7 @@ router.workshops = [
 		name: "Cosméticos naturales",
 		teacher: "Tallerista María Socorro Tamez",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		image: "/images/workshops/img3.jpg",
+		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"Someday from 15:00 to 17:00 (Group 1)",
 			"Some other day from 10:00 to 12:00 (Group 2)",
@@ -129,7 +129,7 @@ router.workshops = [
 		name: "Pop!: Extrusión de Cereal",
 		teacher: "Dr. Erick Heredia",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		image: "/images/workshops/img4.jpg",
+		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"Someday from 15:00 to 17:00 (Group 1)"
 		]
@@ -137,7 +137,7 @@ router.workshops = [
 		name: "Producción de nylon",
 		teacher: "Dr. Jesús Ángel Valencia Gallegos",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		image: "/images/workshops/img5.jpg",
+		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"Someday from 15:00 to 17:00 (Group 1)"
 		]
@@ -145,7 +145,7 @@ router.workshops = [
 		name: "Gastronomía Molecular",
 		teacher: "Dra. Laura Eugenia Romero Robles",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		image: "/images/workshops/img6.jpg",
+		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"Someday from 15:00 to 17:00 (Group 1)"
 		]
@@ -153,7 +153,7 @@ router.workshops = [
 		name: "Culinology",
 		teacher: "Dra. Carmen Hernández",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		image: "/images/workshops/img7.jpg",
+		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"Someday from 15:00 to 17:00 (Group 1)"
 		]
@@ -161,7 +161,7 @@ router.workshops = [
 		name: "Elaboración de Licor de Crema",
 		teacher: "Dra. Cristina Chuck",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		image: "/images/workshops/img8.jpg",
+		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"Someday from 15:00 to 17:00 (Group 1)"
 		]
@@ -169,7 +169,7 @@ router.workshops = [
 		name: "Sistemas Hidropónicos",
 		teacher: "Dr. Jorge Gutiérrez",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		image: "/images/workshops/img9.jpg",
+		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"Someday from 15:00 to 17:00 (Group 1)"
 		]
@@ -177,7 +177,7 @@ router.workshops = [
 		name: "Bioimpresión de Órganos: Alcances y Realidades",
 		teacher: "Red de Biomateriales e Ingeniería de Tejidos y Órganos",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		image: "/images/workshops/img10.jpg",
+		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"Someday from 15:00 to 17:00 (Group 1)"
 		]
@@ -185,7 +185,7 @@ router.workshops = [
 		name: "Química forense",
 		teacher: "Dr. Adolfo Caballero",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		image: "/images/workshops/img11.jpg",
+		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"Someday from 15:00 to 17:00 (Group 1)"
 		]
@@ -193,7 +193,7 @@ router.workshops = [
 		name: "Extracción de un Biocatalizador",
 		teacher: "Dr. Jorge Benavides",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		image: "/images/workshops/img12.jpg",
+		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"Someday from 15:00 to 17:00 (Group 1)"
 		]
@@ -201,7 +201,7 @@ router.workshops = [
 		name: "Herramientas bioinformáticas para el análisis de proteínas",
 		teacher: "Ing. Luis Mario Leal",
 		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		image: "/images/workshops/img13.jpg",
+		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"Someday from 15:00 to 17:00 (Group 1)"
 		]

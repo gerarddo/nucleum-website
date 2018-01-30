@@ -16,6 +16,8 @@ html {
     -webkit-height: 100vh;
     padding-top: 10%;
     padding-bottom: 15%;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 
