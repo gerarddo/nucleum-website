@@ -298,7 +298,9 @@ ol, ul {
   margin-right: auto;
   margin-left: auto;
   height: 100%;
-  overflow: scroll;
+  /*overflow: scroll;*/
+  overflow-y: scroll; 
+  overflow-x:hidden;
   -webkit-overflow-scrolling: touch;
 }
 
