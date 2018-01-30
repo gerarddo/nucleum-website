@@ -3,6 +3,9 @@
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 20; /* Sit on top */
+
+    -webkit-overflow-scrolling: touch; 
+
     padding-top: 30px;
     padding-bottom: 30px;
     left: 0;
