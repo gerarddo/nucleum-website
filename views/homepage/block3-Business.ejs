@@ -10,16 +10,16 @@
 
       <div class="business-content-container text-center">
 
-        <table class="open-visits-modal">
+        <table class="open-business-modal">
           <tr>
             <!-- <td class="nucleum-black-3"> <%= visits[0].name%></td> -->
             <!-- <td class="nucleum-black-2"> <%= visits[1].name%></td> -->
             <!-- <td class="nucleum-black-1"> <%= visits[2].name%></td> -->
             <!-- <td class="nucleum-black-2"> <%= visits[3].name%></td> -->
             <td> <%= business[0].name%></td>
-			<td> <%= business[1].name%></td>
-			<td> <%= business[2].name%></td>
-			<td> <%= business[3].name%></td>
+      			<td> <%= business[1].name%></td>
+      			<td> <%= business[2].name%></td>
+      			<td> <%= business[3].name%></td>
           </tr>
         </table>
 
@@ -32,26 +32,15 @@
 
 
       <!-- The Modal -->
-      <div id="visits-modal" class="modal">
+      <div id="business-modal" class="modal">
 
         <!-- Modal content -->
-        <div class="modal-content-container container">
-          <% include ../modals/modal-Visits %>
+        <div class="modal-content-container container close-business-modal">
+          <% include ../modals/modal-Business %>
         </div>
 
       </div>
 
-<!-- You have to modify what is below this line -->
-
-      <!-- The Modal -->
-      <div id="visits-modal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content-container container">
-          <% include ../modals/modal-Visits %>
-        </div>
-
-      </div>
 
   	</div>
   </div>

@@ -16,14 +16,17 @@
 
 /* Modal Content */
 .modal-content-container {
-
+/*
     background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
+    margin: auto;*/
+    /*padding: 20px;*/
 
 }
 
 #open-panelists-modal {
+    cursor: pointer;
+}
+.open-business-modal {
     cursor: pointer;
 }
 .open-workshops-modal {

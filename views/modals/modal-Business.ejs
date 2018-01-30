@@ -1,7 +1,7 @@
 <!-- <div class="container-fluid"> -->
 
 	<% let color = "nucleum-black-2";%>
-	<% visits.forEach( (visit) => { %>
+	<% business.forEach( (business) => { %>
 
 		<% if(color === "nucleum-black-2"){ %>
 		<%     color = "nucleum-black-3" %>
@@ -10,21 +10,22 @@
 		<% } %>
 
 		<div class="row <%= color %>">
-			<div class="container-fluid visitm-content-container text-center" >
-					<h1> <%= visit.name %> </h1>
+			<div class="container-fluid businessm-content-container text-center" >
+					<h1> <%= business.name %> </h1>
 					<div class="row">
-						<% visit.schedules.forEach( (schedule) => { %>
-							<h4> <%= schedule %> </h4>
-						<% })%>
+
+							<h4> <%= business.schedule %> </h4>
+
 					</div>
 					<br>
 					<div>
-						<img style="max-height: 150px;" class="img-responsive" src=" <%= visit.image %>">						
+						<img style="max-height: 150px;" class="img-responsive" src=" <%= business.image %>">						
 					</div>
 					<br>
-					<p class="text-justify"> <%= visit.body %></p>
+					<p class="text-justify"> <%= business.body %></p>
 			</div>
 		</div> <!-- .row -->
+
 	<%})%>	
 <!-- </div> -->
 

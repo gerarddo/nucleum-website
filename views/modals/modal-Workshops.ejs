@@ -1,6 +1,12 @@
-<div class="container-fluid">
+<!-- <div class="container-fluid"> -->
+	<% let color = "nucleum-black-2";%>
 	<% workshops.forEach( (workshop) => { %>
-		<div class="row">
+		<% if(color === "nucleum-black-2"){ %>
+		<%     color = "nucleum-black-3" %>
+		<% } else if(color === "nucleum-black-3"){ %>
+		<%	   color = "nucleum-black-2" %>
+		<% } %>
+		<div class="row <%= color %>">
 			<div class="container-fluid workshopm-content-container text-center" >
 					<h1> <%= workshop.name %> </h1>
 					<h2> <%= workshop.teacher %> </h2>
@@ -19,11 +25,11 @@
 			</div>
 		</div> <!-- .row -->
 	<%})%>	
-		<div class="row">
+<!-- 	<div class="row">
 		<div class="col-1-1">
 	    	<button class="btn btn-default close-workshops-modal">Close</button>
 		</div>
-	</div>
-</div>
+	</div> -->
+<!-- </div> -->
 
 

@@ -1,8 +1,16 @@
 
-<div class="container-fluid">
+<!-- <div class="container-fluid"> -->
 
+	<% let color = "nucleum-black-2";%>
 	<% panelists.forEach( (panelist) => { %>
-		<div class="row">
+
+		
+		<% if(color === "nucleum-black-2"){ %>
+		<%     color = "nucleum-black-3" %>
+		<% } else if(color === "nucleum-black-3"){ %>
+		<%	   color = "nucleum-black-2" %>
+		<% } %>
+		<div class="row <%= color %>">
 			<div class="col-2-3 panelistm-info-container">
 				<h2 class="pull-left"> <%= panelist.name %> </h2>
 				<p class="pull-left text-justify"> <%= panelist.body %></p>
@@ -13,12 +21,7 @@
 		</div>
 	<%})%>
 
-	<div class="row">
-		<div class="col-1-1">
-	    	<button class="btn btn-default close-panelists-modal">Close</button>
-		</div>
-	</div>
 
-</div>
+<!-- </div> -->
 	
 
