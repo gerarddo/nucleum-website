@@ -1,4 +1,4 @@
-const router = [];
+const router = []; 
 
 router.panelists = [
 	{
