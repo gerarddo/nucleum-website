@@ -16,7 +16,7 @@
 			this.timer = null;
 			
 			this.action();
-			this.stopStart();	
+			// this.stopStart();	
 		},
 		_slideTo: function( slide ) {
 			var currentSlide = this.slides[slide];
@@ -38,22 +38,20 @@
 				}
 				self._slideTo( self.index );
 				
-			}, 4000);
+			}, 6000);
 		},
-		stopStart: function() {
-			var self = this;
-			self.el.addEventListener( "mouseover", function() {
-				clearInterval( self.timer );
-				self.timer = null;
+		// stopStart: function() {
+		// 	var self = this;
+		// 	self.el.addEventListener( "mouseover", function() {
+		// 		clearInterval( self.timer );
+		// 		self.timer = null;
 				
-			}, false);
-			self.el.addEventListener( "mouseout", function() {
-				self.action();
+		// 	}, false);
+		// 	self.el.addEventListener( "mouseout", function() {
+		// 		self.action();
 				
-			}, false);
-		}
-		
-		
+		// 	}, false);
+		// }
 	};
 	
 	document.addEventListener( "DOMContentLoaded", function() {
