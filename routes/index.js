@@ -103,7 +103,8 @@ function modifyForecast(forecast){
 	var	defIcon_class = []
 
 	forecast.forEach((weather) => {
-		let date = new Date(weather.dt_txt + " GMT+06:00")
+		// let date = new Date(weather.dt_txt + " GMT+06:00")
+		let date = new Date(weather.dt_txt + " GMT+00:00")
 		let weekdayIndex = date.getDay()
 
 	    if(weekdayIndex === lastWeekdayIndex ){
@@ -155,11 +156,29 @@ function modifyForecast(forecast){
 	// console.log(defIcon_class)
 
 	for(var i = 0; i < 6; i++){
-		weekForecast[i] = {
-			weekday: defIcon_class[i].weekday,
-			temp_min: defTemp_min[i],
-			temp_max: defTemp_max[i],
-			icon_class: defIcon_class[i].value
+		// weekForecast[i] = {
+		// 	// weekday: defIcon_class[i].weekday,
+		// 	temp_min: defTemp_min[i],
+		// 	temp_max: defTemp_max[i]
+		// 	// icon_class: defIcon_class[i].value
+		// }
+
+		if(defIcon_class[i]!=undefined){
+			weekForecast[i] = {
+				weekday: defIcon_class[i].weekday,
+				temp_min: defTemp_min[i],
+				temp_max: defTemp_max[i],
+				icon_class: defIcon_class[i].value
+			}
+		} else {
+			weekForecast[i] = {
+				weekday: "no info yet",
+				temp_min: "*",
+				temp_max: "*",
+				icon_class: ""
+			}
+			// weekForecast[i].icon_class = ""
+			// weekForecast[i].weekday = "No info yet"
 		}
 	}
 
