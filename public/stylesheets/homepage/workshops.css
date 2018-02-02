@@ -1,10 +1,12 @@
 .workshopm-content-container {
 	padding: 20px;
 	color: white;
+	max-width: 800px;
 }
 
 .workshopm-content-container img {
 	display: block;
 	margin: auto;
+	max-width: 500px;
 }
 

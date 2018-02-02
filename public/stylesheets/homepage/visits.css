@@ -1,10 +1,13 @@
 .visitm-content-container {
 	padding: 20px;
 	color: white;
+	max-width: 800px;
 }
 
 .visitm-content-container img {
 	display: block;
 	margin: auto;
+	max-width: 300px;
+	max-height: 150px;
 }
 

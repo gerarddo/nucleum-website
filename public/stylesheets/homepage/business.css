@@ -1,6 +1,7 @@
 .businessm-content-container {
-padding: 20px;
+	padding: 20px;
 	color: white;
+	max-width: 800px;
 }
 
 .businessm-content-container img {
