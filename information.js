@@ -66,35 +66,35 @@ router.business = [
 router.visits = [
 	{
 		name: "Avant Santé",
-		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		body: "Esta empresa provee soluciones clínicas y analíticas enfocadas a la investigación farmacológica. Ayudan a compañías farmacéuticas en su búsqueda de más y mejores medicamentos para la población. La visita dará a los alumnos un vistazo a este extenso campo de trabajo.",
 		schedules: [
 			"Someday from 15:00 to 19:00 (Group 1)",
 			"Some other day from 9:00 to 13:00 (Group 2)"
 		],
 		image: "/images/visits/avant.png"
 	}, {
-		name: "Cuauhtémoc",
-		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		name: "Cervecería Cuauhtémoc/Moctezuma",
+		body: "En esta visita los participantes aprenderán sobre la fundación, historia e impacto de esta gran empresa mexicana, así como su amplio portafolio de cervezas conocidas a nivel internacional. Conocerán el proceso de elaboración de cerveza, el proceso de envasado y cómo servirla perfectamente.",
 		schedules: [
 			"Someday from 13:00 to 17:00 (Group 1)",
 			"Some other day from 9:00 to 13:00 (Group 2)"
 		],
 		image: "/images/visits/cuauhtemoc.png"
 	}, {
-		name: "Santa Lucía",
-		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		name: "Cervecería Santa Lucía",
+		body: "Una de las abundantes cerveceras artesanales de Monterrey. En esta visita, los participantes aprenderán a producir una cerveza con un sabor diferente, único. Verán a primera vista el proceso y métodos de producción de la cerveza.",
 		schedules: [
 			"Someday from 8:00 to 12:00 (Group 1)"
 		],
 		image: "/images/visits/santa.png"
 	}, {
-		name: "Sigma",
-		body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		name: "Zumba Pica",
+		body: "Pronto te contaremos de qué tratará…",
 		schedules: [
 			"Someday from 8:00 to 12:00 (Group 1)",
 			"Some other day from 8:00 to 12:00 (Group 2)"
 		],
-		image: "https://seeklogo.com/images/S/Sigma-logo-1351D98B32-seeklogo.com.png"
+		image: "/images/visits/zumbapica.png"
 	}
 ]
 
