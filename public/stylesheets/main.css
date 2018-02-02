@@ -31,6 +31,18 @@ body {
     color: black;
 }
 
+.credits-content-container {
+    margin-top: 30px;
+    /*padding-left: 100px;*/
+    text-align: right;
+}
+
+/*.credits-content-container p{
+    text-align: right;
+}*/
+
+
+
 .sexy_line { 
     display: none;
     margin: auto;
@@ -55,10 +67,19 @@ body {
 
     .sexy_line { display: block; }
 
+    .credits-content-container {
+        padding-left: 0px;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
-  .container-body {
-    padding-top: 46px;
-  }
+    .container-body {
+        padding-top: 46px;
+    }
+      .credits-content-container {
+        padding-left: 0px;
+        text-align: center;
+    }
 }
