@@ -156,10 +156,18 @@ router.workshops = [
 			"No schedule defined yet"
 		]
 	}, {
-		name: "Cocina molecular",
+		name: "Gastronomía molecular - Esferificaciones",
 		teacher: "No teacher assigned yet",
 		body: "También conocida como culinology, este taller hace uso de químicos o combina aquellos que tengan compatibilidad en su composición molecular para elaborar platillos diferentes e innovadores; se busca que aquella persona que lo consuma tenga una nueva experiencia en su paladar. En este taller tendrás la oportunidad de aprender sobre técnicas donde se transforman texturas y sabores para obtener un nuevo alimento",
-		image: "/images/workshops/cocina.jpg",
+		image: "/images/workshops/gastronomia-esferas.jpg",
+		schedules: [
+			"No schedule defined yet"
+		]
+	}, {
+		name: "Gastronomía molecular",
+		teacher: "No teacher assigned yet",
+		body: "También conocida como culinology, este taller hace uso de químicos o combina aquellos que tengan compatibilidad en su composición molecular para elaborar platillos diferentes e innovadores; se busca que aquella persona que lo consuma tenga una nueva experiencia en su paladar. En este taller tendrás la oportunidad de aprender sobre técnicas donde se transforman texturas y sabores para obtener un nuevo alimento",
+		image: "/images/workshops/gastronomia.jpg",
 		schedules: [
 			"No schedule defined yet"
 		]
@@ -184,14 +192,6 @@ router.workshops = [
 		teacher: "No teacher assigned yet",
 		body: "",
 		image: "/images/workshops/cocteleria.jpg",
-		schedules: [
-			"No schedule defined yet"
-		]
-	}, {
-		name: "Dummy",
-		teacher: "No teacher assigned yet",
-		body: "",
-		image: "/images/workshops/workshop-test.png",
 		schedules: [
 			"No schedule defined yet"
 		]

@@ -1,6 +1,7 @@
 html {
     background-size: cover;
     height: 100%;
+    background-color: black;
 }
 body {
     font-family: 'Montserrat', Geneva, Trebuchet MS, sans-serif;
@@ -19,12 +20,31 @@ body {
 }
 
 .footer-list-container {
-    color: gray;
+    color: black;
 }
+
+
+.footer-list-container h3{
+    padding-left: 3px;
+}
+
 
 .footer-list-container a {
     text-decoration: none;
+    color: black;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+}
+
+.footer-list-container a:hover {
+    /*text-decoration: none;*/
     color: gray;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
 }
 
 .footer-list-container td {
@@ -32,14 +52,26 @@ body {
 }
 
 .credits-content-container {
-    margin-top: 30px;
-    /*padding-left: 100px;*/
-    text-align: right;
+    margin-top: 20px;
+    text-align: center;
+
 }
 
-/*.credits-content-container p{
-    text-align: right;
-}*/
+.credits-content-container a{
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+}
+
+.credits-content-container a:hover{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: gray;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+}
 
 
 
@@ -66,11 +98,6 @@ body {
     }
 
     .sexy_line { display: block; }
-
-    .credits-content-container {
-        padding-left: 0px;
-        text-align: center;
-    }
 
 }
 

@@ -4,51 +4,32 @@
   	<div class="container">
   		<div class="business-header-container">
   			<div class="container-fluid nucleum-blue-1tr">
-				<h3 class="text-center">Nucleum Business</h3>
-			</div>
-  		</div>
-
+				  <h3 class="text-center">Nucleum Business</h3>
+			  </div>
+  		</div> <!-- .business-header-container -->
       <div class="business-content-container text-center">
-
         <table class="open-business-modal">
           <tr>
-            <!-- <td class="nucleum-black-3"> <%= visits[0].name%></td> -->
-            <!-- <td class="nucleum-black-2"> <%= visits[1].name%></td> -->
-            <!-- <td class="nucleum-black-1"> <%= visits[2].name%></td> -->
-            <!-- <td class="nucleum-black-2"> <%= visits[3].name%></td> -->
             <td> <%= business[0].name%></td>
       			<td> <%= business[1].name%></td>
       			<td> <%= business[2].name%></td>
       			<td> <%= business[3].name%></td>
           </tr>
         </table>
-
         <div id="open-help-modal">
        	  ¿Nucleum Business?
         </div>
-
-      </div>
-      <!-- The Modal -->
+      </div> <!-- .business-content-container -->
       <div id="help-modal" class="modal">
-
-        <!-- Modal content -->
         <div class="modal-content-container container close-help-modal">
           <% include ../modals/modal-Help %>
         </div>
-
-      </div>
-
-      <!-- The Modal -->
+      </div> <!-- .modal -->
       <div id="business-modal" class="modal">
-
-        <!-- Modal content -->
         <div class="modal-content-container container close-business-modal">
           <% include ../modals/modal-Business %>
         </div>
-
-      </div>
-
-
+      </div> <!-- .modal -->
   	</div>
   </div>
 </div>
