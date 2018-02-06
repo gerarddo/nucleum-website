@@ -1,8 +1,68 @@
 
-<% include partials/header %>
-<% include partials/navbar %>
-
-<% include partials/navbar-back %>
 
 
-<% include partials/footer %>
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Congreso Nucleum 2018</title>
+		<!-- For displaying mexican accents and shit -->	
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+			<meta charset="utf-8" />
+		<!-- Fonts and icons -->
+			<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> 
+			<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+			<link rel="shortcut icon" type="image/png" href="images/nucleum-icon-orange.png">
+
+		<!-- Stylesheets -->
+			<link rel="stylesheet" type="text/css" href="/stylesheets/basic-theme.css">
+			<link rel="stylesheet" type="text/css" href="/stylesheets/responsive-grid.css">
+
+			<!-- <link rel="stylesheet" type="text/css" href="/stylesheets/modals.css"> -->
+			<link rel="stylesheet" href="/stylesheets/main.css">
+			<link rel="stylesheet" href="/stylesheets/legal.css">
+			<!-- <link rel="stylesheet" href="/stylesheets/schedules/schedules.css"> -->
+			<link rel="stylesheet" href="/stylesheets/nucleum-colors.css">
+
+	</head>
+	<body>
+
+		<% include partials/navbar %>
+		<% include partials/navbar-back %>
+
+		<div class="container-body">
+
+			<div class="legal-content-container">
+				<h1>Términos y condiciones</h1>
+				<div class="legal-img-container">
+					<img class="img-responsive" src="images/NucleumLogo.png">
+				</div>
+
+				<!-- <h2>Congreso Nucleum 2018</h2> -->
+<!-- <h1>Términos y condiciones</h1> -->
+
+				<p>
+					Sus datos personales le corresponden solo a usted y este sitio web es responsable de no revelar ninguna clase de información que le pertenezca (como nombre, teléfonos, email, etc.), salvo su expresa autorización o fuerzas de naturaleza mayor de tipo legal que lo involucren. 
+				</p>
+				<p>
+					Al proporcionarnos sus datos personales, estando de acuerdo con la Política de Privacidad aquí consignada, nos autoriza para el siguiente uso de su información: 
+				</p>
+				<p>
+					a) Para el fin mismo por lo cual se ha suministrado
+				</p>
+				<p>
+					b) Para orientar mejor los servicios aquí ofrecidos y valorarlos a su criterio
+				</p>
+				<p>
+					c) Para enviar e-mails con nuestros boletines, responder inquietudes o comentarios, y mantener informado a nuestros usuarios.
+				</p>
+				
+			</div>
+
+ 		<% include partials/footer-view %>
+		</div>
+
+	</body>
+</html>
