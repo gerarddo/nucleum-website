@@ -6,17 +6,12 @@
 
 .panelistm-img-container {
 	padding: 5px;
-	/*max-height: 300px;*/
 }
 
 .panelistm-img-container img {
-	/*margin-right: 0px;*/
-	/*float: right;*/
-	/*max-height: 300px;*/
 	margin: auto;
 	display: block;
 	width: 300px;
-
 }
 @media screen and (min-width: 801px){
 	.panelistm-img-container img {
