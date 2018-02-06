@@ -1,10 +1,15 @@
 <div id="main-slider">
 	<div class="slider-wrapper">
-		<img src="images/panelists/slideshow/slideshow-0.jpg" class="slide" />
-		<img src="images/panelists/slideshow/slideshow-1.jpg" class="slide" />
-		<img src="images/panelists/slideshow/slideshow-2.jpg" class="slide" />
+
+		<% panelists.forEach((panelist) => { %>
+			<img src=" <%= panelist.image %> " class="slide" />
+		<% }) %>
+
+<!-- 		<img src=" <%= panelists%> " class="slide" />
+		<img src="images/panelists/slideshow/tamez.jpg" class="slide" /> -->
+<!-- 		<img src="images/panelists/slideshow/slideshow-2.jpg" class="slide" />
 		<img src="images/panelists/slideshow/slideshow-3.jpg" class="slide" />
-		<img src="images/panelists/slideshow/slideshow-4.jpg" class="slide" />
+		<img src="images/panelists/slideshow/slideshow-4.jpg" class="slide" /> -->
 	</div>
 </div>	
 

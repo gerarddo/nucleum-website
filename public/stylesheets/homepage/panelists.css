@@ -4,10 +4,20 @@
 	color: white;
 }
 
-.panelistm-img-container img {
-	margin: auto;
+.panelistm-img-container {
+	padding: 5px;
 }
 
+.panelistm-img-container img {
+	/*margin-right: 0px;*/
+	/*float: right;*/
+	max-height: 300px;
+}
+@media screen and (min-width: 801px){
+	.panelistm-img-container img {
+		float: right;
+	}
+}
 
 @media screen and (max-width: 800px){
     .panelistm-info-container {
@@ -15,5 +25,11 @@
     }
     .panelistm-img-container {
     	width: 100%;
+    	margin-bottom: 20px;
+    	margin-left: 10px;
+    	margin-right: 10px;
     }
+    .panelistm-img-container img {
+		margin: auto;
+	}
 }

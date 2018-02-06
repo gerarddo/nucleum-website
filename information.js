@@ -6,31 +6,31 @@ router.panelists = [
 		body: "Investigación en nanotecnología contra el cáncer. Su laboratorio se especializa en crear tratamientos que enlazan las células inmunes, los primeros en responder a las amenazas en tu cuerpo cuerpo, centrados precisamente en las células cancerosas sin dañar las sanas.",
 		schedules: "No schedule defined yet",
 		caption: "Reconocida como TED Fellow 2017 por su investigación en nanotecnología del cáncer y sus esfuerzos para amplificar las voces de las mujeres en liderazgo y educación superior. ",
-		image: "/images/panelists/panelist-test.png"
+		image: "/images/panelists/wayne.jpg"
 	}, {
 		name: "Rodolfo Quintero", 
 		body: "Sus investigaciones en el área de la biotecnología agroalimentaria son de suma importancia, específicamente el área de control de plagas.",
 		schedules: "No schedule defined yet",
 		caption: "Estudió Ingeniería Química por la UNAM (1971) con Maestría en Biotecnología por el MIT, Miembro del SNI Nivel III.",
-		image: "/images/panelists/panelist-test.png"
+		image: "/images/panelists/conference-test.png"
 	}, {
 		name: "Germán Buitrón",
 		body: "Nos hablará de operación eficiente de bio-reactores para el tratamiento de aguas; producción biológica de hidrógeno, metano y electricidad a partir de residuos; biodegradación de efluentes inhibitorios; uso de sistemas microalga-bacteria para el tratamiento de aguas y valorización de la biomasa.",
 		schedules: "No schedule defined yet",
 		caption: "Ingeniero Ambiental especializado en Energía.",
-		image: "/images/panelists/panelist-test.png"
+		image: "/images/panelists/buitron.jpg"
 	}, {
 		name: "Jesús Tamez-Duque",
 		body: "Desarrolla e integra interfaces, técnicas, artísticas y máquinas-humanas personales; su trabajo se centra principalmente con exoesqueletos.",
 		schedules: "No schedule defined yet",
 		caption: "Fundador y CEO: INDI Ingeniería y Tech-Enhanced Human Experience",
-		image: "/images/panelists/panelist-test.png"
+		image: "/images/panelists/tamez.jpg"
 	}, {
 		name: "Por confirmar",
 		body: "",
 		schedules: "No schedule defined yet",
 		caption: "Conferencista, fecha y hora aún por confirmar                                     ",
-		image: "/images/panelists/panelist-test.png"
+		image: "/images/panelists/conference-test.png"
 	}
 ]
 
@@ -95,7 +95,7 @@ router.workshops = [
 		name: "Plantas como Biorreactor",
 		teacher: "No teacher assigned yet",
 		body: "Este taller está enfocado en la demostración de las plantas para la obtención de energía, sus razones y métodos de extracción.",
-		image: "/images/workshops/workshop-test.png",
+		image: "/images/workshops/biorreactor.jpg",
 		schedules: [
 			"No schedule defined yet"
 		]
@@ -103,7 +103,7 @@ router.workshops = [
 		name: "Fitocosméticos",
 		teacher: "No teacher assigned yet",
 		body: "Conoce cómo las grandes industrias de cosméticos fabrican estos productos. Dándole importancia al cuidado de la piel, se harán productos de maquillaje con base natural para explorar más sobre los posibles usos de distintas materias primas.",
-		image: "/images/workshops/workshop-test.png",
+		image: "/images/workshops/fitocosmeticos.jpg",
 		schedules: [
 			"No schedule defined yet"
 		]
@@ -119,7 +119,7 @@ router.workshops = [
 		name: "Elaboración de cerveza con enfoque industrial y casero",
 		teacher: "No teacher assigned yet",
 		body: "En este taller aprenderás a hacer cerveza de manera artesanal y conocer sobre la metodología e ingredientes involucrados al producir una de las bebidas más consumidas en el ámbito comercial. Se cuenta con dos talleres, con enfoques en el área industrial y otro en el casero.",
-		image: "/images/workshops/workshop-test.png",
+		image: "/images/workshops/cheve.jpg",
 		schedules: [
 			"No schedule defined yet"
 		]
@@ -127,7 +127,7 @@ router.workshops = [
 		name: "Separaciones Moleculares de Compuestos Bioactivos",
 		teacher: "No teacher assigned yet",
 		body: "El taller está dedicado a la realización de demostrativa de sílica gel en columna, cromatografía en capa delgada con solventes de diferentes polaridades y separación de compuestos bioactivos.",
-		image: "/images/workshops/workshop-test.png",
+		image: "/images/workshops/separaciones.jpg",
 		schedules: [
 			"No schedule defined yet"
 		]
@@ -135,7 +135,7 @@ router.workshops = [
 		name: "Bioinformática y genómica: mutaciones cancerígenas",
 		teacher: "No teacher assigned yet",
 		body: "Uso de la bioinformática y genómica en la visualización 3D de mutaciones somáticas más frecuentes en cáncer.",
-		image: "/images/workshops/workshop-test.png",
+		image: "/images/workshops/bioinformatica.jpg",
 		schedules: [
 			"No schedule defined yet"
 		]
@@ -143,7 +143,7 @@ router.workshops = [
 		name: "Nieve con nitrógeno “dippin dots”",
 		teacher: "No teacher assigned yet",
 		body: "Utilizaremos una rama de la cocina molecular para innovar en la textura y presentación de la nieve, esta se crea con nitrógeno liquido; este taller te dará la experiencia de elaborar tu propio producto.",
-		image: "/images/workshops/workshop-test.png",
+		image: "/images/workshops/nieve.jpg",
 		schedules: [
 			"No schedule defined yet"
 		]
@@ -159,7 +159,7 @@ router.workshops = [
 		name: "Cocina molecular",
 		teacher: "No teacher assigned yet",
 		body: "También conocida como culinology, este taller hace uso de químicos o combina aquellos que tengan compatibilidad en su composición molecular para elaborar platillos diferentes e innovadores; se busca que aquella persona que lo consuma tenga una nueva experiencia en su paladar. En este taller tendrás la oportunidad de aprender sobre técnicas donde se transforman texturas y sabores para obtener un nuevo alimento",
-		image: "/images/workshops/workshop-test.png",
+		image: "/images/workshops/cocina.jpg",
 		schedules: [
 			"No schedule defined yet"
 		]
@@ -167,23 +167,23 @@ router.workshops = [
 		name: "Síntesis de nanoestructuras",
 		teacher: "No teacher assigned yet",
 		body: "Pronto te contaremos de qué tratará...",
-		image: "/images/workshops/workshop-test.png",
+		image: "/images/workshops/nanoestructuras.jpg",
 		schedules: [
 			"No schedule defined yet"
 		]
 	}, {
-		name: "Dummy",
+		name: "Química forense (?)",
 		teacher: "No teacher assigned yet",
 		body: "",
-		image: "/images/workshops/workshop-test.png",
+		image: "/images/workshops/forense.jpg",
 		schedules: [
 			"No schedule defined yet"
 		]
 	}, {
-		name: "Dummy",
+		name: "Coctelería Molecular (?)",
 		teacher: "No teacher assigned yet",
 		body: "",
-		image: "/images/workshops/workshop-test.png",
+		image: "/images/workshops/cocteleria.jpg",
 		schedules: [
 			"No schedule defined yet"
 		]

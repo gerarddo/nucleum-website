@@ -20,6 +20,17 @@ html {
     padding-left: 10px;
 }
 
+.logo-content h2{
+    /*display: block;*/
+    /*margin: auto;*/
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    /*font-size: 1.3em;*/
+    /*color: rgb(200,200,200);*/
+
+}
+
 
 /*About*/   
 .about-text-container {
@@ -59,7 +70,22 @@ html {
     height: 372px;
     margin-bottom: 40px;
     color: white;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
 }
+
+.panelists-content-container .row:hover {
+/*    height: 372px;
+    margin-bottom: 40px;*/
+    color: #ffe4d8;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+}
+
 .panelists-content-container .col-1-2,
 .panelists-content-container .col-1-1{
     display: block; 
@@ -158,27 +184,43 @@ html {
     margin-top: 40px;
     color: white;
 }
+
 .business-content-container{
     margin-top: 50px;
     margin-bottom: 20px;
 }
 
 .business-content-container table {
+    color: white;
     margin: auto;
     margin-bottom: 20px;
     height: 110px;
     border-collapse: collapse;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
 }
+
+.business-content-container table:hover {
+    color: #ffe4d8;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+}
+
 
 .business-content-container tr {
     height: 100%;
 }
 
 .business-content-container td {
-    color: white;
     vertical-align: middle;
     padding: 10px;
 }
+
+
 
 
 .business-content-container table:first-of-type, 
@@ -227,14 +269,28 @@ html {
     margin-bottom: 20px;
     height: 110px;
     border-collapse: collapse;
+
+    color: white;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
 }
+
+.workshops-content-container table:hover {
+    color: #ffe4d8;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+}
+
 
 .workshops-content-container tr {
     height: 100%;
 }
 
 .workshops-content-container td {
-    color: white;
     vertical-align: middle;
     padding: 10px;
 }
@@ -297,14 +353,28 @@ html {
     margin-bottom: 20px;
     height: 110px;
     border-collapse: collapse;
+
+    color: white;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
 }
+
+.visits-content-container table:hover {    
+    color: #ffe4d8;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+}
+
 
 .visits-content-container tr {
     height: 100%;
 }
 
 .visits-content-container td {
-    color: white;
     vertical-align: middle;
     padding: 10px;
 }

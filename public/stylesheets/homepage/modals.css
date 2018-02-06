@@ -35,21 +35,21 @@
 #open-help-modal {
     color: gray;
     display: block;
-    margin: auto;
-    max-width: 220px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    float: right;
+    margin-bottom: 30px;
+    padding-right: 20%;
     cursor: pointer;
-
-    background-color: rgba(0,0,0,0.9);
 
     -webkit-transition-duration: 0.3s;
        -moz-transition-duration: 0.3s;
          -o-transition-duration: 0.3s;
 }
 
+
 #open-help-modal:hover {
+
     color: white;
+
 
     -webkit-transition-duration: 0.3s;
        -moz-transition-duration: 0.3s;
