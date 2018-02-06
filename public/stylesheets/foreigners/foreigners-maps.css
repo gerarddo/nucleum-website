@@ -8,6 +8,43 @@
 	margin-bottom: 20px;
 }*/
 
+
+
+
+
+.maps-content-container img {
+	/*margin-top: 1px;*/
+	/*display: block;*/
+	width: 100%;
+	/*margin: auto;*/
+	/*height: 150px;*/
+
+}
+
 .maps-content-container p {
-	margin-top: 15px;
+	/*margin-top: 1px;*/
+	margin-bottom: 15px;
+
+}
+
+
+
+.maps-img-container {
+	display: block;
+	padding-left:10px; 
+	padding-right:10px; 
+	margin: auto;
+	max-width: 300px;
+}
+
+@media screen and (max-width: 750px) {
+	.maps-content-container .col-1-3, .maps-content-container .col-2-3 {
+		width: 100%
+	}
+
+	.maps-content-container p {
+	/*margin-top: 1px;*/
+	margin-bottom: 10px;
+
+}
 }
