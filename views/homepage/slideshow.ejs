@@ -2,8 +2,13 @@
 	<div class="slider-wrapper">
 
 		<% panelists.forEach((panelist) => { %>
-			<img src=" <%= panelist.image %> " class="slide" />
+		<%     if(panelist.image !== "/images/panelists/conference-test.png"){ %>
+				  <img src=" <%= panelist.image %> " class="slide" />
+		<%     }%>
+			
 		<% }) %>
+
+
 
 <!-- 		<img src=" <%= panelists%> " class="slide" />
 		<img src="images/panelists/slideshow/tamez.jpg" class="slide" /> -->
