@@ -2,19 +2,19 @@
 	height: 250px;
 	color: white;
 
-	-webkit-transition-duration: 0.3s;
+/*	-webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;*/
 }
 
-.today-content-container:hover {
+/*.today-content-container:hover {
 
 	color: #fff6db;
 
 	-webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
-}
+}*/
 
 .today-content-container i{
 	font-size: 5em;
@@ -30,19 +30,19 @@
 	width: 16.666%;
 	float: left;
 
-	-webkit-transition-duration: 0.3s;
+/*	-webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;*/
 }
 
-.forecast-content-container > div:hover {
+/*.forecast-content-container > div:hover {
 	color: #ffeeb5;
 
 	-webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
 }
-
+*/
 .weekday-content-container {
 
 }

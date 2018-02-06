@@ -1,3 +1,13 @@
 .maps-content-container {
-	
+	color: white;
+	text-align: center;
+}
+
+/*.maps-content-container h3 {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}*/
+
+.maps-content-container p {
+	margin-top: 15px;
 }

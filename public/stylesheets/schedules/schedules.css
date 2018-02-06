@@ -38,9 +38,7 @@ html {
 }
 
 @media screen and (max-width: 300px){
-	
 	.schedules-header-container {
 		font-size: 0.5em;
 	}
-
 }

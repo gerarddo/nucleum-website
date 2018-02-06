@@ -19,6 +19,7 @@
 			<link rel="stylesheet" href="/stylesheets/main.css">
 			<link rel="stylesheet" href="/stylesheets/foreigners/foreigners-weather.css">
 			<link rel="stylesheet" href="/stylesheets/foreigners/foreigners-maps.css">  
+			<link rel="stylesheet" href="/stylesheets/foreigners/foreigners-tourism.css">  
 			<link rel="stylesheet" href="/stylesheets/foreigners/weather-icons.min.css">
 			<link rel="stylesheet" href="/stylesheets/nucleum-colors.css">
 
@@ -37,9 +38,9 @@
 
 			<div class="jumbotron nucleum-black-3">
 				<div class="container weather-content-container">
-					<div class="row nucleum-blue-2">
+					<div class="row ">
 						<div class="col-1-3 text-center">
-							<div class="container-fluid nucleum-blue-3 today-content-container">
+							<div class="container-fluid  today-content-container">
 								<h2> <%= forecast[0].weekday %> </h2>
 								<i class=" <%= forecast[0].icon_class %> "></i>
 								<p><%= today.weather[0].description %></p>
@@ -64,10 +65,15 @@
 			</div>
 
 			<div class="jumbotron nucleum-black-2">
-				<div class="container maps-content-container">
+				<div class="container maps-content-container ">
 					<div class="row">
-						<div class="col-1-3">
-							<h3 class="text-center" style="color: white">Hotel anfitrión</h3>
+						<div class="col-1-3 ">
+							<!-- <h3 class="text-center">Hotel anfitrión</h3> -->
+							<img src="https://www.vboceanside.com/wp-content/uploads/2016/01/hi-logo-horizontal.png">
+							<p>Teléfono: 999-99-99-99</p>
+							<p>Email: generic@email.com</p>
+							<p>Dirección: Garza Sada ABC</p>
+							<p>Pregunta por Nucleum!</p>
 						</div>
 						<div class="col-2-3">
 							<div id="map" style="height: 300px;"></div>					
@@ -76,6 +82,11 @@
 				</div>
 			</div>
 
+			<div class="jumbotron nucleum-black-3">
+				<div class="container tourism-content-container">
+					
+				</div>
+			</div>
 			
  		<% include partials/footer-view %>
 		</div>
@@ -87,12 +98,12 @@
 		  var map;
 		  function initMap() {
 		    map = new google.maps.Map(document.getElementById('map'), {
-			      	center: {lat: 25.6488054, lng: -100.28976979999999},
-			      	zoom: 16,
+			      	center: {lat: 25.636670, lng: -100.284148},
+			      	zoom: 15,
 			      	scrollwheel: false
 		    	});
 		    	marker = new google.maps.Marker({
-			      	position: {lat: 25.6488054, lng: -100.28976979999999},
+			      	position: {lat: 25.636670, lng: -100.284148},
 			      	map: map
 		    	});
 		  	}
