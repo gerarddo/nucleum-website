@@ -10,7 +10,10 @@ body {
 .row {
     margin-top: 0px;
 }
+.nav {
+    z-index: 2;
 
+}
 
 /*Footer*/
 

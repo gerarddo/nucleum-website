@@ -13,8 +13,9 @@
 							<h3 class="text-center">Conferencias</h3>
 						</div>
 					</div> <!-- .panelists-header-container -->
-					<div class="panelists-content-container">
-						<div class="row text-center" id="open-panelists-modal">
+					<div class="panelists-content-container" >
+						<div class="panelists-overlay" id="open-panelists-modal"></div>
+						<div class="row text-center" >
 							<div class="col-1-2 nucleum-black-1">
 								<h3> <%= panelists[0].name%></h3>
 								<p> <%= panelists[0].caption%></p>
@@ -34,7 +35,6 @@
 							<div class="col-1-1 nucleum-black-1">
 								<div class="last-panelist">
 									<h3> <%= panelists[4].name%></h3>
-									<p> <%= panelists[4].caption%></p>										
 								</div>
 							</div>
 						</div>

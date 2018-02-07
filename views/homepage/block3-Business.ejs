@@ -8,7 +8,8 @@
 			  </div>
   		</div> <!-- .business-header-container -->
       <div class="business-content-container text-center">
-        <table class="open-business-modal">
+        <div class="business-overlay open-business-modal"></div>
+        <table>
           <tr>
             <td> <%= business[0].name%></td>
       			<td> <%= business[1].name%></td>
@@ -16,10 +17,13 @@
       			<td> <%= business[3].name%></td>
           </tr>
         </table>
-        <div id="open-help-modal">
+<!--         <div id="open-help-modal">
        	  ¿Nucleum Business?
-        </div>
+        </div> -->
       </div> <!-- .business-content-container -->
+      <div id="open-help-modal">
+        ¿Nucleum Business?
+      </div>
       <div id="help-modal" class="modal">
         <div class="modal-content-container container close-help-modal">
           <% include ../modals/modal-Help %>
