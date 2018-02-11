@@ -38,23 +38,23 @@ router.business = [
 	{
 		name: "Solben", 
 		body: "Empresa formada por líderes con alta conciencia social, ambiental y económica que desarrolla tecnologías para generar energía a partir de materias primas renovables. Teniendo como objetivo impulsar el desarrollo y uso de la bioenergía para mejorar la calidad de vida y la recuperación del medio ambiente. Automatización, caracterización de aceites y calidad de biodiesel son algunas de las tecnologías desarrolladas por SOLBEN reconocidas a nivel nacional e internacional.",
-		schedules: "No schedule defined yet",
+		schedules: "8 de marzo",
 		image: "/images/business/solben.jpg"
 	}, {
 		name: "Galtec", 
-		body: "Galtec se basa en la en la redirección del metabolismo de algas para que produzcan metabolitos de valor agregado para la industria de los alimentos, por lo que se logra que las microalgas acumulen diferentes compuestos. Galtec ofrece proteínas, omegas y antioxidantes que son producidos a partir de diferentes cepas de microalgas como pueden ser antioxidantes, ácidos grasos omega 3 y 6 y proteína del alga espirulina. Ha logrado avances importantes en la utilización de microalgas para salud humana, cosmética, purificación de aguas residuales, prevención de contaminación acuática, industria farmacéutica, producción de pigmentos y antibióticos, entre otros usos. Además es reconocida como una empresa de alto impacto por la Incubadora de Biotecnología del I2T2 ubicada en el Parque de Investigación e Innovación Tecnológica , donde actualmente realizan sus labores.",
-		schedules: "No schedule defined yet",
+		body: "Galtec se basa en la en la redirección del metabolismo de algas para producir metabolitos de valor agregado para la industria de los alimentos. Galtec ofrece antioxidantes, ácidos grasos omega 3 y 6 y proteína del alga espirulina. Ha logrado avances importantes en la utilización de microalgas para salud humana, cosmética, purificación de aguas residuales, prevención de contaminación acuática, industria farmacéutica, producción de pigmentos y antibióticos.",
+		schedules: "7 de marzo",
 		image: "/images/business/galtec.png"
 	}, {
-		name: "Aluz",
-		body: "Formada en base a la idea de crear una empresa que brindara formas prácticas y económicas para ahorrar energía. Comenzaron con el asesoramiento a negocios con sus necesidades energéticas. Desde entonces se han ido estado expandiendo por todo el territorio nacional. Entre sus artículos se encuentran: celdas solares, ecotecnologías, monitoreo y control, ahorro de agua  y aislamiento térmico.",
-		schedules: "No schedule defined yet",
-		image: "/images/business/aluz.png"
+		name: "Renovapack",
+		body: "Empresa con conciencia ambiental enfocada a la  fabricación de productos biodegradables a base de fibras naturales o polímeros de maíz como caña de azúcar, trigo y el PLA, reduciendo así su tiempo de degradación a 3-6 meses. Cuentan con productos de alta calidad como vasos personalizados, lunchbox y contenedores. Renovapack logra impulsar el uso de desechables biodegradables y compostables con la finalidad de cuidar el medio ambiente.",
+		schedules: "8 de marzo",
+		image: "/images/business/renovapack.png"
 	}, {
-		name: "Dummy",
-		body: "Dummy",
-		schedules: "No schedule defined yet",
-		image: "/images/business/business-test.png"
+		name: "Aluz",
+		body: "Formada en base a la idea de crear una empresa que brindara formas prácticas y económicas para ahorrar energía. Comenzaron con el asesoramiento a negocios con sus necesidades energéticas. Desde entonces se han ido expandiendo por todo el territorio nacional. Entre sus artículos se encuentran: celdas solares, ecotecnologías, monitoreo y control, ahorro de agua  y aislamiento térmico.",
+		schedules: "9 de marzo",
+		image: "/images/business/aluz.png"
 	}
 ]
 
