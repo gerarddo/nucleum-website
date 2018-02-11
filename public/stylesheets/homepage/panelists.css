@@ -14,10 +14,10 @@
 
 .panelistm-info-container p{
 	margin-top: 20px;
-	font-size: 1.1em;
+	font-size: 0.9em;
 }
 
-.panelistm-info-container p:nth-of-type(2){
+.panelistm-info-container p:nth-of-type(3){
 	color: gray;
 }
 .panelistm-img-container {
@@ -29,13 +29,13 @@
 	display: block;
 	width: 300px;
 }
-@media screen and (min-width: 801px){
+@media screen and (min-width: 1001px){
 	.panelistm-img-container img {
 		float: right;
 	}
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     .panelistm-info-container {
     	width: 100%;
     }

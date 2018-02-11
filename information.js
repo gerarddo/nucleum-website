@@ -9,7 +9,7 @@ router.panelists = [
 				description: "Long text about conference. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
 			},
 		// body: "Investigación en nanotecnología contra el cáncer. Su laboratorio se especializa en crear tratamientos que enlazan las células inmunes, los primeros en responder a las amenazas en tu cuerpo cuerpo, centrados precisamente en las células cancerosas sin dañar las sanas.",
-		schedules: "No schedule defined yet",
+		schedule: "Horario por confirmar",
 		caption: "Reconocida como TED Fellow 2017 por su investigación en nanotecnología del cáncer y sus esfuerzos para amplificar las voces de las mujeres en liderazgo y educación superior. ",
 		image: "/images/panelists/wayne.jpg"
 	}, {
@@ -20,7 +20,7 @@ router.panelists = [
 				description: "Long text about conference"
 			},
 		// body: "Nos hablará de operación eficiente de bio-reactores para el tratamiento de aguas; producción biológica de hidrógeno, metano y electricidad a partir de residuos; biodegradación de efluentes inhibitorios; uso de sistemas microalga-bacteria para el tratamiento de aguas y valorización de la biomasa.",
-		schedules: "No schedule defined yet",
+		schedule: "Horario por confirmar",
 		caption: "Ingeniero Ambiental especializado en Energía.",
 		image: "/images/panelists/buitron.jpg"
 	}, {
@@ -31,7 +31,7 @@ router.panelists = [
 				description: "Long text about conference"
 			},
 		// body: "Desarrolla e integra interfaces, técnicas, artísticas y máquinas-humanas personales; su trabajo se centra principalmente con exoesqueletos.",
-		schedules: "No schedule defined yet",
+		schedule: "Horario por confirmar",
 		caption: "Fundador y CEO: INDI Ingeniería y Tech-Enhanced Human Experience",
 		image: "/images/panelists/tamez.jpg"
 	}, {
@@ -42,7 +42,7 @@ router.panelists = [
 				description: "Long text about conference"
 			},
 		// body: "",
-		schedules: "No schedule defined yet",
+		schedule: "Horario por confirmar",
 		caption: "Conferencista, fecha y hora aún por confirmar                                     ",
 		image: "/images/panelists/conference-test.png"
 	}, {
@@ -53,7 +53,7 @@ router.panelists = [
 				description: "Long text about conference"
 			},
 		// body: "",
-		schedules: "No schedule defined yet",
+		schedule: "Horario por confirmar",
 		caption: "Conferencista, fecha y hora aún por confirmar                                     ",
 		image: "/images/panelists/conference-test.png"
 	}
