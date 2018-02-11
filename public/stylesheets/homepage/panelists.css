@@ -20,6 +20,7 @@
 .panelistm-info-container p:nth-of-type(3){
 	color: gray;
 }
+
 .panelistm-img-container {
 	padding: 5px;
 }
@@ -29,8 +30,21 @@
 	display: block;
 	width: 300px;
 }
+
+.panelistm-img-container div {
+	display: block; 
+	margin: auto; 
+	width: 300px; 
+	height: 300px; 
+	border: 1px solid white;
+}
+
+
+
+
 @media screen and (min-width: 1001px){
-	.panelistm-img-container img {
+	.panelistm-img-container img,
+	.panelistm-img-container div {
 		float: right;
 	}
 }
