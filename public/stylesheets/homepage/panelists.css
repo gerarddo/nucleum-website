@@ -3,7 +3,23 @@
     padding: 20px;
 	color: white;
 }
+.panelistm-info-container h1,
+.panelistm-info-container h2{
+	text-align: left;
+}
 
+.panelistm-info-container h2{
+	color: gray;
+}
+
+.panelistm-info-container p{
+	margin-top: 20px;
+	font-size: 1.1em;
+}
+
+.panelistm-info-container p:nth-of-type(2){
+	color: gray;
+}
 .panelistm-img-container {
 	padding: 5px;
 }
