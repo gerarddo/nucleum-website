@@ -16,10 +16,14 @@
 						<% })%>
 					</div>
 					<br>
-					<div>
+
+			<%     if(workshop.image !== "/images/workshops/workshop-test.png"){ %>
+					<img class="img-responsive" src=" <%= workshop.image %>">
+			<%     }  %>
+<!-- 					<div>
 						<img class="img-responsive" src=" <%= workshop.image %>">						
 					</div>
-
+ -->
 					<br>
 					<p class="text-justify"> <%= workshop.body %></p>
 			</div>
