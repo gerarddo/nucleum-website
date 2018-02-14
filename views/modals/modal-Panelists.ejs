@@ -16,10 +16,19 @@
 
 
 				<div class="col-2-3 panelistm-info-container">
-					<h1> <%= panelist.conference.name %> </h1>
-					<h2> <%= panelist.name %> </h2>
+					<h2> <%= panelist.conference.name %> </h2>
+					<div class="row">
+						<div class="col-1-2">
+							<h2> <%= panelist.name %> </h2>
+						</div>
+						<div class="col-1-2">
+							<p><%= panelist.schedule %></p>
+						</div>
+					</div>
+					
+
 					<p class="text-justify"> <%= panelist.conference.description %></p>
-					<p class="text-justify"> <%= panelist.schedule %></p>
+
 					<p class="text-justify"> <%= panelist.caption %></p>
 				</div>
 

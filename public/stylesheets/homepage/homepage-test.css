@@ -81,6 +81,10 @@ html {
     position: relative
 }
 
+.panelists-content-container p{
+    color: rgb(180,180,180);
+}
+
 .panelists-content-container .row {
     height: 372px;
     margin-bottom: 40px;
@@ -108,6 +112,11 @@ html {
     .panelists-content-container .col-1-1{
         font-size: 0.85em;
     }
+
+    .panelists-content-container .col-1-2 h3,
+    .panelists-content-container .col-1-1 h3{
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 992px){
@@ -120,6 +129,10 @@ html {
 @media screen and (max-width: 700px){
     .panelists-content-container .col-1-2,
     .panelists-content-container .col-1-1{
+        font-size: 0.95em;
+    }
+    .panelists-content-container .col-1-2 h3,
+    .panelists-content-container .col-1-1 h3{
         font-size: 0.95em;
     }
 }
@@ -136,6 +149,10 @@ html {
     .panelists-content-container .col-1-1{
         font-size: 0.8em;
     }
+    .panelists-content-container .col-1-2 h3,
+    .panelists-content-container .col-1-1 h3{
+        font-size: 0.87em;
+    }
 }
 
 @media screen and (max-width: 360px){
@@ -148,7 +165,7 @@ html {
 @media screen and (max-width: 335px){
     .panelists-content-container .col-1-2,
     .panelists-content-container .col-1-1{
-        font-size: 0.7em;
+        font-size: 0.67em;
     }
 }
 
@@ -162,7 +179,7 @@ html {
 @media screen and (max-width: 250px){
     .panelists-content-container .col-1-2,
     .panelists-content-container .col-1-1{
-        font-size: 0.6em;
+        font-size: 0.57em;
     }
 }
 

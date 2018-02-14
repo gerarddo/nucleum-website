@@ -4,46 +4,59 @@ router.panelists = [
 	{
 		name: "Elizabeth Wayne", 
 		conference: {
-				name: "Conference name",
-				caption: "Short text about conference",
-				description: "Long text about conference. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+				name: "Células inmunes, el vehículo para tratamientos contra el cáncer",
+				caption: "Aprovechamiento de las células del sistema inmune como medio de transporte para el tratamiento contra el cáncer. ",
+				description: "Las células del sistema inmune se acumulan en tejidos con cáncer a un ritmo mucho más alto que cualquier nano-partícula sintética. Creando nano-partículas que contengan moléculas para el tratamiento contra cáncer y que estén diseñadas para adherirse a las células inmunes, se obtiene un mecanismo de entrega de medicamento mucho más efectivo que todos los métodos actuales para atacar células cancerígenas"
 			},
-		// body: "Investigación en nanotecnología contra el cáncer. Su laboratorio se especializa en crear tratamientos que enlazan las células inmunes, los primeros en responder a las amenazas en tu cuerpo cuerpo, centrados precisamente en las células cancerosas sin dañar las sanas.",
 		schedule: "Horario por confirmar",
-		caption: "Reconocida como TED Fellow 2017 por su investigación en nanotecnología del cáncer y sus esfuerzos para amplificar las voces de las mujeres en liderazgo y educación superior. ",
+		caption: [
+			"Doctora en biomedicina por Universidad de Cornell.",
+			"Trabajo de investigación enfocado al uso de nanotecnología en tratamientos contra el cáncer.",
+			"Promotora de la inclusión de las mujeres en la comunidad científica."
+		],
 		image: "/images/panelists/wayne.jpg"
 	}, {
-		name: "Germán Buitrón",
+		name: "Dr. Germán Buitrón",
 		conference: {
-				name: "Conference name",
-				caption: "Short text about conference",
-				description: "Long text about conference"
+				name: "Energía limpia a partir de residuos",
+				caption: "Tratamiento biológico de aguas residuales y producción de biocombustibles gaseosos a partir de residuos.",
+				description: "Tratamiento de aguas residuales; Cinética, bioquímica y microbiología de la degradación de compuestos tóxicos; Producción de hidrógeno y electricidad a partir de residuos. \n La producción de biocombustibles a partir de microalgas es uno de sus proyectos vigentes. Un litro de biodiesel actualmente, en proceso industrial, cuesta 27 veces lo que un litro de diésel obtenido del petróleo. Entonces, en lugar de producir biodiesel, se interesó en la producción de biocombustibles gaseosos: metano e hidrógeno, por medio del uso de microalgas para el tratamiento de aguas residuales. "
 			},
-		// body: "Nos hablará de operación eficiente de bio-reactores para el tratamiento de aguas; producción biológica de hidrógeno, metano y electricidad a partir de residuos; biodegradación de efluentes inhibitorios; uso de sistemas microalga-bacteria para el tratamiento de aguas y valorización de la biomasa.",
 		schedule: "Horario por confirmar",
-		caption: "Ingeniero Ambiental especializado en Energía.",
+		caption: [
+			"Coordinador del Laboratorio de Investigación en Procesos Avanzados de Tratamiento de Aguas.",
+			"Investigador Nivel 3 del SNI",
+			"112 publicaciones en revistas internacionales indizadas y alrededor de 450 publicaciones en memorias de congresos.",
+			"Miembro de la Academia Mexicana de Ciencias, de la Sociedad Mexicana de Biotecnología y Bioingeniería y de la International Water Association."
+		],
 		image: "/images/panelists/buitron.jpg"
 	}, {
 		name: "Jesús Tamez-Duque",
 		conference: {
-				name: "Conference name",
-				caption: "Short text about conference",
-				description: "Long text about conference"
+				name: "Exoesqueletos: Un vistazo hacia el futuro",
+				caption: "Experiencia humana mejorada por la tecnología mediante el desarrollo e integración de interfaces hombre-máquina. ",
+				description: "Hablará de su experiencia en la Investigación centrada en BCI para aplicaciones en Biomecatrónica, su investigación colaborativa entre el Tec de Monterrey y la Universidad de Houston. Así como de su experiencia en Wearobot, organización en la que colaboró diseñando y construyendo robots portátiles que se pueden usar como dispositivos de ayuda al movimiento, rehabilitación o de aumento humano."
 			},
-		// body: "Desarrolla e integra interfaces, técnicas, artísticas y máquinas-humanas personales; su trabajo se centra principalmente con exoesqueletos.",
 		schedule: "Horario por confirmar",
-		caption: "Fundador y CEO: INDI Ingeniería y Tech-Enhanced Human Experience",
+		caption: [
+			"Fundador y  CEO en INDI Ingeniería y Diseño",
+			"Desarrollador de 2 patentes y 5 publicaciones",
+			"Desarrollador de Lead BCI",
+			"Certificaciones: Currículo de investigación humana. Investigadores de biomedicina y física.",
+			"Ganador del Premio Rómulo Garza 2017"
+		],
 		image: "/images/panelists/tamez.jpg"
 	}, {
 		name: "Por confirmar",
 		conference: {
-				name: "Conference name",
-				caption: "Short text about conference",
-				description: "Long text about conference"
+				name: "¿El arte controla la mente o viceversa?",
+				caption: "Combinar el conocimiento científico, tecnológico y artístico para crear un mundo funcional, asombroso e inspirador.",
+				description: "Centrado en la innovación, la investigación y el desarrollo. Dirige un estudio interdisciplinario de interfaz hombre-máquina llamado INDI, desarrollando proyectos para empresas e instituciones con impacto internacional. \n Apoya a los fabricantes y empresarios enfocados en la innovación social; desarrolla y asesora proyectos dentro del grupo de Biomecatrónica en el Tecnológico de Monterrey y en colaboración con el Laboratorio para Sistemas de Interfaz Cerebro-Máquina No Invasivos de la Universidad de Houston, específicamente relacionado con Exoesqueletos Desarrollados e Interfaces de Computadora Cerebral."
 			},
-		// body: "",
 		schedule: "Horario por confirmar",
-		caption: "Conferencista, fecha y hora aún por confirmar                                     ",
+		caption: [
+			"Actualmente trabaja en el desarrollo de exoesqueletos robóticos para asistencia de movimiento en aplicaciones personales e industriales, así como en la integración de dispositivos de registro de señales neuronales para instalaciones artísticas."
+		],
 		image: "/images/panelists/conference-test.png"
 	}, {
 		name: "Por confirmar", 
