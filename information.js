@@ -9,10 +9,10 @@ router.panelists = [
 				description: "Las células del sistema inmune se acumulan en tejidos con cáncer a un ritmo mucho más alto que cualquier nano-partícula sintética. Creando nano-partículas que contengan moléculas para el tratamiento contra cáncer y que estén diseñadas para adherirse a las células inmunes, se obtiene un mecanismo de entrega de medicamento mucho más efectivo que todos los métodos actuales para atacar células cancerígenas"
 			},
 		schedule: "Horario por confirmar",
-		caption: [
-			"Doctora en biomedicina por Universidad de Cornell.",
-			"Trabajo de investigación enfocado al uso de nanotecnología en tratamientos contra el cáncer.",
-			"Promotora de la inclusión de las mujeres en la comunidad científica."
+		captions: [
+			"Doctora en biomedicina por Universidad de Cornell • ",
+			"Trabajo de investigación enfocado al uso de nanotecnología en tratamientos contra el cáncer • ",
+			"Promotora de la inclusión de las mujeres en la comunidad científica"
 		],
 		image: "/images/panelists/wayne.jpg"
 	}, {
@@ -23,11 +23,11 @@ router.panelists = [
 				description: "Tratamiento de aguas residuales; Cinética, bioquímica y microbiología de la degradación de compuestos tóxicos; Producción de hidrógeno y electricidad a partir de residuos. \n La producción de biocombustibles a partir de microalgas es uno de sus proyectos vigentes. Un litro de biodiesel actualmente, en proceso industrial, cuesta 27 veces lo que un litro de diésel obtenido del petróleo. Entonces, en lugar de producir biodiesel, se interesó en la producción de biocombustibles gaseosos: metano e hidrógeno, por medio del uso de microalgas para el tratamiento de aguas residuales. "
 			},
 		schedule: "Horario por confirmar",
-		caption: [
-			"Coordinador del Laboratorio de Investigación en Procesos Avanzados de Tratamiento de Aguas.",
-			"Investigador Nivel 3 del SNI",
-			"112 publicaciones en revistas internacionales indizadas y alrededor de 450 publicaciones en memorias de congresos.",
-			"Miembro de la Academia Mexicana de Ciencias, de la Sociedad Mexicana de Biotecnología y Bioingeniería y de la International Water Association."
+		captions: [
+			"Coordinador del Laboratorio de Investigación en Procesos Avanzados de Tratamiento de Aguas • ",
+			"Investigador Nivel 3 del SNI • ",
+			"112 publicaciones en revistas internacionales indizadas y alrededor de 450 publicaciones en memorias de congresos • ",
+			"Miembro de la Academia Mexicana de Ciencias, de la Sociedad Mexicana de Biotecnología y Bioingeniería y de la International Water Association"
 		],
 		image: "/images/panelists/buitron.jpg"
 	}, {
@@ -38,36 +38,36 @@ router.panelists = [
 				description: "Hablará de su experiencia en la Investigación centrada en BCI para aplicaciones en Biomecatrónica, su investigación colaborativa entre el Tec de Monterrey y la Universidad de Houston. Así como de su experiencia en Wearobot, organización en la que colaboró diseñando y construyendo robots portátiles que se pueden usar como dispositivos de ayuda al movimiento, rehabilitación o de aumento humano."
 			},
 		schedule: "Horario por confirmar",
-		caption: [
-			"Fundador y  CEO en INDI Ingeniería y Diseño",
-			"Desarrollador de 2 patentes y 5 publicaciones",
-			"Desarrollador de Lead BCI",
-			"Certificaciones: Currículo de investigación humana. Investigadores de biomedicina y física.",
+		captions: [
+			"Fundador y  CEO en INDI Ingeniería y Diseño • ",
+			"Desarrollador de 2 patentes y 5 publicaciones • ",
+			"Desarrollador de Lead BCI • ",
+			"Certificaciones: Currículo de investigación humana. Investigadores de biomedicina y física • ",
 			"Ganador del Premio Rómulo Garza 2017"
 		],
 		image: "/images/panelists/tamez.jpg"
 	}, {
-		name: "Por confirmar",
+		name: "Jesús Tamez-Duque",
 		conference: {
 				name: "¿El arte controla la mente o viceversa?",
 				caption: "Combinar el conocimiento científico, tecnológico y artístico para crear un mundo funcional, asombroso e inspirador.",
 				description: "Centrado en la innovación, la investigación y el desarrollo. Dirige un estudio interdisciplinario de interfaz hombre-máquina llamado INDI, desarrollando proyectos para empresas e instituciones con impacto internacional. \n Apoya a los fabricantes y empresarios enfocados en la innovación social; desarrolla y asesora proyectos dentro del grupo de Biomecatrónica en el Tecnológico de Monterrey y en colaboración con el Laboratorio para Sistemas de Interfaz Cerebro-Máquina No Invasivos de la Universidad de Houston, específicamente relacionado con Exoesqueletos Desarrollados e Interfaces de Computadora Cerebral."
 			},
 		schedule: "Horario por confirmar",
-		caption: [
+		captions: [
 			"Actualmente trabaja en el desarrollo de exoesqueletos robóticos para asistencia de movimiento en aplicaciones personales e industriales, así como en la integración de dispositivos de registro de señales neuronales para instalaciones artísticas."
 		],
-		image: "/images/panelists/conference-test.png"
+		image: "/images/panelists/tamez.jpg"
 	}, {
 		name: "Por confirmar", 
 		conference: {
-				name: "Conference name",
-				caption: "Short text about conference",
-				description: "Long text about conference"
+				name: "Por confirmar",
+				caption: "",
+				description: ""
 			},
 		// body: "",
 		schedule: "Horario por confirmar",
-		caption: "Conferencista, fecha y hora aún por confirmar                                     ",
+		captions: ["Conferencista, fecha y hora aún por confirmar                                     "],
 		image: "/images/panelists/conference-test.png"
 	}
 ]
@@ -197,7 +197,7 @@ router.workshops = [
 		name: "Gastronomía molecular",
 		teacher: "Esther Pérez Carrillo",
 		body: "También conocida como culinology, hace uso de químicos o combina aquellos que tengan compatibilidad en su composición molecular para elaborar platillos diferentes e innovadores. Se busca que aquel que lo consuma tenga una nueva experiencia en su paladar. En este taller tendrás la oportunidad de aprender sobre técnicas donde se transforman texturas y sabores para obtener un nuevo alimento.",
-		image: "/images/workshops/gastronomia.png",
+		image: "/images/workshops/gastronomia.jpg",
 		schedules: [
 			"Jueves 8 - 8 a 10 hrs"
 		]
