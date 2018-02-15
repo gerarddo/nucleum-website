@@ -1,8 +1,63 @@
 
-<% include partials/header %>
-<% include partials/navbar %>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Congreso Nucleum 2018</title>
+		<!-- For displaying mexican accents and shit -->	
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+			<meta charset="utf-8" />
+		<!-- Fonts and icons -->
+			<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> 
+			<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+			<link rel="shortcut icon" type="image/png" href="images/nucleum-icon-orange.png">
 
-<% include partials/navbar-back %>
+		<!-- Stylesheets -->
+			<link rel="stylesheet" type="text/css" href="/stylesheets/basic-theme.css">
+			<link rel="stylesheet" type="text/css" href="/stylesheets/responsive-grid.css">
+
+			<!-- <link rel="stylesheet" type="text/css" href="/stylesheets/modals.css"> -->
+			<link rel="stylesheet" href="/stylesheets/main.css">
+			<link rel="stylesheet" href="/stylesheets/tickets/tickets.css">
+			<link rel="stylesheet" href="/stylesheets/nucleum-colors.css">
+
+	</head>
+	<body>
+
+		<% include partials/navbar %>
+		<% include partials/navbar-back %>
+
+		<div class="container-body">
+					<!-- <% include partials/navbar %> -->
+
+			<div class="row">
+				<div class='col-1-1'>
+					<!-- <div class="jumbotron nucleum-black-3"> -->
+						<div style="display: block; max-width: 800px; margin: auto; text-align: center">
+							<div style="display: block; width: 300px; margin: auto; margin-bottom: 30px;">
+								<img class="img-responsive" src="images/NucleumLogo.png">
+							</div>
+							<p>
+								<a href="https://drive.google.com/drive/folders/0B9OqLZFhwrYuM0RKNlR4c3lZZGs?usp=sharing" style="text-decoration: none; color: white" >Pago en línea (estudiantes del Tec)</a>
+							</p>
+							<p>
+								<a href="https://drive.google.com/drive/folders/0B9OqLZFhwrYuNTV0MGlreENiSW8?usp=sharing" style="text-decoration: none; color: white" >Pago en línea (personas externas al Tec)</a>
+							</p>
+							<h2>
+								<a href="https://www.ticketopolis.com/congresonucleum/tickets.aspx" target="_blank" style="text-decoration: none; color: white">Comprar boleto!</a>
+							</h2>
+						</div>		
+
+				</div> <!-- .col-1-1 -->
+				<div style="display: block; height: 1000px; width: 20px;"></div>
+			</div>
+ 		<% include partials/footer-view %>
+		</div>
+<!-- <% include partials/footer-view %> -->
 
 
-<% include partials/footer %>
+
+	</body>
+</html>
+
+
+

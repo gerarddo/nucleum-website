@@ -65,7 +65,6 @@ router.panelists = [
 				caption: "",
 				description: ""
 			},
-		// body: "",
 		schedule: "Horario por confirmar",
 		captions: ["Conferencista, fecha y hora aún por confirmar                                     "],
 		image: "/images/panelists/conference-test.png"
