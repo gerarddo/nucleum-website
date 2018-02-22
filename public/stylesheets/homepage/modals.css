@@ -70,8 +70,8 @@
 }
 
 
-/*Panelists*/
-.close-panelists-modal {
+
+.close-modal {
     display: block;
     background-color: rgba(0,0,0,0);
     right: 0;
@@ -85,7 +85,7 @@
        -moz-transition-duration: 0.3s;
          -o-transition-duration: 0.3s;
 }
-.close-panelists-modal:hover {
+.close-modal:hover {
     color: white;
 
     -webkit-transition-duration: 0.3s;
