@@ -83,16 +83,27 @@ router.business = [
 		schedules: "7 de marzo",
 		image: "/images/business/galtec.png"
 	}, {
-		name: "Renovapack",
-		body: "Empresa con conciencia ambiental enfocada a la  fabricación de productos biodegradables a base de fibras naturales o polímeros de maíz como caña de azúcar, trigo y el PLA, reduciendo así su tiempo de degradación a 3-6 meses. Cuentan con productos de alta calidad como vasos personalizados, lunchbox y contenedores. Renovapack logra impulsar el uso de desechables biodegradables y compostables con la finalidad de cuidar el medio ambiente.",
-		schedules: "8 de marzo",
-		image: "/images/business/renovapack.png"
+		name: "Scintia",
+		body: "",
+		schedules: "",
+		image: "/images/business/scintia.png"
 	}, {
 		name: "Aluz",
 		body: "Formada en base a la idea de crear una empresa que brindara formas prácticas y económicas para ahorrar energía. Comenzaron con el asesoramiento a negocios con sus necesidades energéticas. Desde entonces se han ido expandiendo por todo el territorio nacional. Entre sus artículos se encuentran: celdas solares, ecotecnologías, monitoreo y control, ahorro de agua  y aislamiento térmico.",
 		schedules: "9 de marzo",
 		image: "/images/business/aluz.png"
+	}, {
+		name: "Kinetech Power Systems",
+		body: ": Compañía visionaria en la innovación y el desarrollo de tecnología esencialmente en almacenamiento de energía. Ha creado así un sistema  de bajo costo y de flexible duración, también conocido como batería mecánica,  proporcionando energía no tóxica y amigable con el medio ambiente. En base a este desarrollo crearon un sistema de volante híbrido compuesto de alta velocidad reduciendo su costo sin disminuir su eficiencia.",
+		schedules: "",
+		image: "/images/business/kinetech.png"
+	}, {
+		name: "Global Nano Additives",
+		body: "Empresa dedicada al desarrollo de nano aditivos para lubricación de presiones y temperaturas extremas en el sector industrial de cortes de metales, rolado de tubos y forjado. Sus productos se caracterizan por su eficiencia, sustentabilidad y no generadores de residuos tóxicos. Es considerada como la primer Empresa a nivel mundial en desarrollar, producir y comercializar aditivos lubricantes basados en nanotecnología y amigables con el medio ambiente",
+		schedules: "",
+		image: "/images/business/gna.png"
 	}
+
 ]
 
 router.visits = [
@@ -119,7 +130,7 @@ router.visits = [
 		image: "/images/visits/cuauhtemoc.png"
 	}, {
 		name: "Zumba Pica",
-		body: "Pronto te contaremos de qué tratará…",
+		body: "Esta es una empresa mexicana de dulces de tamarindo y golosinas. En esta visita podrás aprender sobre los procesos de elaboración de todos estos productos y todos sus procedimientos de calidad, cuidado e higiene. La empresa utiliza tecnología avanzada en el área de procesado y empaquetado, permitiéndolos ser competentes a nivel internacional.",
 		schedules: [
 			"Horario por confirmar"
 		],
@@ -132,7 +143,7 @@ router.workshops = [
 		name: "Síntesis verde de nanopartículas metálicas de plata y oro",
 		teacher: "Jorge Luis Cholula",
 		body: "Uso de materia verde como plantas, semillas o cortezas para la obtención de nanopartículas metálicas. Este tipo de nanopartículas se consideran de gran interés gracias a sus propiedades antibacterianas, por lo que sus aplicaciones van enfocadas a la detección y al tratamiento de enfermedades en plantas y humanos causadas por virus o bacterias.",
-		image: "/images/workshops/workshop-test.png",
+		image: "/images/workshops/nanoparticulas.jpg",
 		schedules: [
 			"Viernes 9 - 11 a 13 hrs"
 		]
@@ -161,6 +172,14 @@ router.workshops = [
 			"Jueves 8 - de 15 a 17 hrs"
 		]
 	}, {
+		name: "Nanoestructuras en la industria cosmética y su aplicación en cremas para la piel",
+		teacher: "Laura Romero",
+		body: "Utilizaremos una rama de la cocina molecular para innovar en la textura y presentación de la nieve, esta se crea con nitrógeno liquido; este taller te dará la experiencia de elaborar tu propio producto.",
+		image: "/images/workshops/nanoestructuras.jpg",
+		schedules: [
+			"Jueves 8 - 15:30 a 17:30 hrs"
+		]
+	}, {
 		name: "Bioinformática y genómica - mutaciones cancerígenas",
 		teacher: "Victor Treviño y Rocío Díaz",
 		body: "En este taller aprenderás a calcular la frecuencia de mutaciones de cada gen en datos de secuenciación genómica en cáncer, a detectar aquellos con mayor frecuencia y a visualizar en 3D los posibles efectos de dichas mutaciones. Además, conocerás los métodos de secuenciación que generaron esta información y una gran cantidad de bases de datos que almacenan esta importante información de pacientes que incluye también, pacientes mexicanos.",
@@ -183,14 +202,6 @@ router.workshops = [
 		image: "/images/workshops/nieve.jpg",
 		schedules: [
 			"Horario por confirmar"
-		]
-	}, {
-		name: "Nanoestructuras en la industria cosmética y su aplicación en cremas para la piel",
-		teacher: "Laura Romero",
-		body: "Utilizaremos una rama de la cocina molecular para innovar en la textura y presentación de la nieve, esta se crea con nitrógeno liquido; este taller te dará la experiencia de elaborar tu propio producto.",
-		image: "/images/workshops/nanoestructuras.jpg",
-		schedules: [
-			"Jueves 8 - 15:30 a 17:30 hrs"
 		]
 	}, {
 		name: "Gastronomía molecular",
@@ -221,7 +232,7 @@ router.workshops = [
 		name: "Producción de Cerveza industrial",
 		teacher: "Santa co.",
 		body: "Este taller cuenta con dos partes, una visita a la empresa en el que se dará un taller teórico y un taller práctico en el que pondrás en práctica los conceptos aprendidos durante la visita. Durante la selección de talleres se deben de seleccionar ambos para poder participar. Aprenderás a elaborar cerveza a nivel industrial, y podrás colaborar de la mano con la cervecería Santa co. para preparar un lote de cerveza en sus instalaciones.",
-		image: "/images/workshops/workshop-test.png",
+		image: "/images/workshops/cheveindustrial.jpg",
 		schedules: [
 			"Jueves 8 - 7:30 a 11 hrs",
 			"Jueves 8 - 10 a 13:30 hrs"
@@ -230,7 +241,7 @@ router.workshops = [
 		name: "Conservación de alimentos con presiones hidrostáticas",
 		teacher: "Zamantha Escobedo Avellaneda",
 		body: "La alta presión hidrostática es una tecnología de gran interés para la industria alimentaria debido a que se ha comprobado que es mucho más efectiva que otros métodos utilizados para la conservación de alimentos. Este método favorece y mejora la calidad sensorial y la conservación de los alimentos, sin poner en riesgo la pérdida de sus nutrientes y sabores. En este taller conocerás los principios (principio isostático) de la tecnología y los mecanismos implicados en la inactivación microbiana y enzimática en alimentos.",
-		image: "/images/workshops/forense.jpg",
+		image: "/images/workshops/conservacion.jpg",
 		schedules: [
 			"Miércoles 7 - 15 a 17 hrs"
 		]
@@ -238,7 +249,7 @@ router.workshops = [
 		name: "Diferentes funciones de las proteínas como el huevo",
 		teacher: "Aurora Valdez y Hugo Mújica",
 		body: "El huevo es uno de los alimentos de origen animal que contiene todos los aminoácidos esenciales en las proporciones exactas que necesita el organismo para el crecimiento óptimo de los tejidos musculares. En este taller se conocerán muchas de las diferentes funciones que tienen las proteínas en la industria alimenticia, principalmente el uso del huevo y su importancia para esta.",
-		image: "/images/workshops/workshop-test.png",
+		image: "/images/workshops/funcionesproteina.jpg",
 		schedules: [
 			"Miércoles 7 - 15 a 17 hrs"
 		]
