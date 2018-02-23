@@ -143,7 +143,7 @@ router.workshops = [
 		name: "Síntesis verde de nanopartículas metálicas de plata y oro",
 		teacher: "Jorge Luis Cholula",
 		body: "Uso de materia verde como plantas, semillas o cortezas para la obtención de nanopartículas metálicas. Este tipo de nanopartículas se consideran de gran interés gracias a sus propiedades antibacterianas, por lo que sus aplicaciones van enfocadas a la detección y al tratamiento de enfermedades en plantas y humanos causadas por virus o bacterias.",
-		image: "/images/workshops/nanoparticulas.jpg",
+		image: "/images/workshops/nanoparticulas.png",
 		schedules: [
 			"Viernes 9 - 11 a 13 hrs"
 		]
