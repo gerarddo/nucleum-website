@@ -2,19 +2,36 @@ const router = [];
 
 router.panelists = [
 	{
-		name: "Elizabeth Wayne", 
+		name: "Jesús Tamez-Duque",
 		conference: {
-				name: "Células inmunes, el vehículo para tratamientos contra el cáncer",
-				caption: "Aprovechamiento de las células del sistema inmune como medio de transporte para el tratamiento contra el cáncer. ",
-				description: "Las células del sistema inmune se acumulan en tejidos con cáncer a un ritmo mucho más alto que cualquier nano-partícula sintética. Creando nano-partículas que contengan moléculas para el tratamiento contra cáncer y que estén diseñadas para adherirse a las células inmunes, se obtiene un mecanismo de entrega de medicamento mucho más efectivo que todos los métodos actuales para atacar células cancerígenas"
+				name: "Exoesqueletos: Un vistazo hacia el futuro",
+				caption: "Experiencia humana mejorada por la tecnología mediante el desarrollo e integración de interfaces hombre-máquina. ",
+				description: "Hablará de su experiencia en la Investigación centrada en BCI para aplicaciones en Biomecatrónica, su investigación colaborativa entre el Tec de Monterrey y la Universidad de Houston. Así como de su experiencia en Wearobot, organización en la que colaboró diseñando y construyendo robots portátiles que se pueden usar como dispositivos de ayuda al movimiento, rehabilitación o de aumento humano."
 			},
-		schedule: "Horario por confirmar",
+		schedule: "Miércoles 7 - 10:30 a 11:30 hrs",
 		captions: [
-			"Doctora en biomedicina por Universidad de Cornell • ",
-			"Trabajo de investigación enfocado al uso de nanotecnología en tratamientos contra el cáncer • ",
-			"Promotora de la inclusión de las mujeres en la comunidad científica"
+			"Fundador y  CEO en INDI Ingeniería y Diseño • ",
+			"Desarrollador de 2 patentes y 5 publicaciones • ",
+			"Desarrollador de Lead BCI • ",
+			"Certificaciones: Currículo de investigación humana. Investigadores de biomedicina y física • ",
+			"Ganador del Premio Rómulo Garza 2017"
 		],
-		image: "/images/panelists/wayne.jpg"
+		image: "/images/panelists/tamez.jpg"
+	}, {
+		name: "PhD Elva Yadira Quiroz Rocha", 
+		conference: {
+				name: "Bacteria que crea y degrada plástico",
+				caption: "",
+				description: "Se identificó el sistema que permite a la bacteria Azotobacter vinelandii multiplicar por 10 su capacidad para producir dos tipos de plásticos biodegradables o biopolímeros, de extraordinaria pureza y nulo impacto ambiental. \n Ese sistema hace posible a la bacteria elegir las fuentes de carbono (alimento) que posteriormente convertirá en dos tipos de polímeros, ambos de interés biotecnológico por su gran potencial de aplicación en diversos campos, así como su capacidad para ser degradados por la misma bacteria que los produce."
+			},
+		schedule: "Miércoles 7 - 12:30 a 13:30 hrs",
+		captions: [
+			"Investigadora residente del Centro de Ciencias Genómicas de la Universidad Nacional Autónoma de México (UNAM)  • ",
+			"3 publicaciones recientes Microbiología y Biotecnología aplicada •	",
+			"Reconocimiento al Mérito Estatal de Investigación (2017) • ",
+			"Egresada de Universidad Nacional Autónoma de México, Cuernavaca, México"
+		],
+		image: "/images/panelists/elva.jpg"
 	}, {
 		name: "Dr. Germán Buitrón",
 		conference: {
@@ -22,7 +39,7 @@ router.panelists = [
 				caption: "Tratamiento biológico de aguas residuales y producción de biocombustibles gaseosos a partir de residuos.",
 				description: "Tratamiento de aguas residuales; Cinética, bioquímica y microbiología de la degradación de compuestos tóxicos; Producción de hidrógeno y electricidad a partir de residuos. \n La producción de biocombustibles a partir de microalgas es uno de sus proyectos vigentes. Un litro de biodiesel actualmente, en proceso industrial, cuesta 27 veces lo que un litro de diésel obtenido del petróleo. Entonces, en lugar de producir biodiesel, se interesó en la producción de biocombustibles gaseosos: metano e hidrógeno, por medio del uso de microalgas para el tratamiento de aguas residuales. "
 			},
-		schedule: "Horario por confirmar",
+		schedule: "Jueves 8 - 10 a 11 hrs",
 		captions: [
 			"Coordinador del Laboratorio de Investigación en Procesos Avanzados de Tratamiento de Aguas • ",
 			"Investigador Nivel 3 del SNI • ",
@@ -33,41 +50,29 @@ router.panelists = [
 	}, {
 		name: "Jesús Tamez-Duque",
 		conference: {
-				name: "Exoesqueletos: Un vistazo hacia el futuro",
-				caption: "Experiencia humana mejorada por la tecnología mediante el desarrollo e integración de interfaces hombre-máquina. ",
-				description: "Hablará de su experiencia en la Investigación centrada en BCI para aplicaciones en Biomecatrónica, su investigación colaborativa entre el Tec de Monterrey y la Universidad de Houston. Así como de su experiencia en Wearobot, organización en la que colaboró diseñando y construyendo robots portátiles que se pueden usar como dispositivos de ayuda al movimiento, rehabilitación o de aumento humano."
-			},
-		schedule: "Horario por confirmar",
-		captions: [
-			"Fundador y  CEO en INDI Ingeniería y Diseño • ",
-			"Desarrollador de 2 patentes y 5 publicaciones • ",
-			"Desarrollador de Lead BCI • ",
-			"Certificaciones: Currículo de investigación humana. Investigadores de biomedicina y física • ",
-			"Ganador del Premio Rómulo Garza 2017"
-		],
-		image: "/images/panelists/tamez.jpg"
-	}, {
-		name: "Jesús Tamez-Duque",
-		conference: {
 				name: "¿El arte controla la mente o viceversa?",
 				caption: "Combinar el conocimiento científico, tecnológico y artístico para crear un mundo funcional, asombroso e inspirador.",
 				description: "Centrado en la innovación, la investigación y el desarrollo. Dirige un estudio interdisciplinario de interfaz hombre-máquina llamado INDI, desarrollando proyectos para empresas e instituciones con impacto internacional. \n Apoya a los fabricantes y empresarios enfocados en la innovación social; desarrolla y asesora proyectos dentro del grupo de Biomecatrónica en el Tecnológico de Monterrey y en colaboración con el Laboratorio para Sistemas de Interfaz Cerebro-Máquina No Invasivos de la Universidad de Houston, específicamente relacionado con Exoesqueletos Desarrollados e Interfaces de Computadora Cerebral."
 			},
-		schedule: "Horario por confirmar",
+		schedule: "Jueves 8 - 12:30 a 13:30 hrs",
 		captions: [
 			"Actualmente trabaja en el desarrollo de exoesqueletos robóticos para asistencia de movimiento en aplicaciones personales e industriales, así como en la integración de dispositivos de registro de señales neuronales para instalaciones artísticas."
 		],
 		image: "/images/panelists/tamez.jpg"
 	}, {
-		name: "Por confirmar", 
+		name: "Dra. Elizabeth Wayne", 
 		conference: {
-				name: "Por confirmar",
-				caption: "",
-				description: ""
+				name: "Células inmunes, el vehículo para tratamientos contra el cáncer",
+				caption: "Aprovechamiento de las células del sistema inmune como medio de transporte para el tratamiento contra el cáncer. ",
+				description: "Las células del sistema inmune se acumulan en tejidos con cáncer a un ritmo mucho más alto que cualquier nano-partícula sintética. Creando nano-partículas que contengan moléculas para el tratamiento contra cáncer y que estén diseñadas para adherirse a las células inmunes, se obtiene un mecanismo de entrega de medicamento mucho más efectivo que todos los métodos actuales para atacar células cancerígenas"
 			},
-		schedule: "Horario por confirmar",
-		captions: ["Conferencista, fecha y hora aún por confirmar                                     "],
-		image: "/images/panelists/conference-test.png"
+		schedule: "Viernes 9 - 10 a 11 hrs",
+		captions: [
+			"Doctora en biomedicina por Universidad de Cornell • ",
+			"Trabajo de investigación enfocado al uso de nanotecnología en tratamientos contra el cáncer • ",
+			"Promotora de la inclusión de las mujeres en la comunidad científica"
+		],
+		image: "/images/panelists/wayne.jpg"
 	}
 ]
 
@@ -84,7 +89,7 @@ router.business = [
 		image: "/images/business/galtec.png"
 	}, {
 		name: "Scintia",
-		body: "",
+		body: "Scintia es una empresa que cree firmemente en que no debería de haber limitantes para aprender, entender e investigar las maravillas de la biología. Por ello han desarrollado un kit de Biología molecular a un precio accesible, el cual incluye el equipo necesario para realizar los experimentos más usados en el estudio de la biología sintetica. Estos kits pueden ser utilizados por escuelas de nivel medio superior, universidades, entusiastas y pequeñas empresas. Su objetivo es poder ayudar a fomentar el acceso a tecnologías emergentes, y lograr una de sus metas principales: Democratizar el acceso y el aprendizaje de la biotecnología.",
 		schedules: "",
 		image: "/images/business/scintia.png"
 	}, {
@@ -132,7 +137,7 @@ router.visits = [
 		name: "Zumba Pica",
 		body: "Esta es una empresa mexicana de dulces de tamarindo y golosinas. En esta visita podrás aprender sobre los procesos de elaboración de todos estos productos y todos sus procedimientos de calidad, cuidado e higiene. La empresa utiliza tecnología avanzada en el área de procesado y empaquetado, permitiéndolos ser competentes a nivel internacional.",
 		schedules: [
-			"Horario por confirmar"
+			"Viernes 9 - 12:30 a 14:30 hrs"
 		],
 		image: "/images/visits/zumbapica.png"
 	}
@@ -170,6 +175,14 @@ router.workshops = [
 		image: "/images/workshops/fitocosmeticos.jpg",
 		schedules: [
 			"Jueves 8 - de 15 a 17 hrs"
+		]
+	}, {
+		name: "Óptica Moderna",
+		teacher: "Tallerista por confirmar",
+		body: "Utilización de lentes y energía para explorar el mundo de la óptica y sus beneficios. En este taller se aprenderá sobre experimentos modernos de óptica y fotónica. Los experimentos involucran temas de información cuántica y ondas electromagnéticas. En un experimento se trabajará con una fuente de pares de fotones para entender la generación de fotones entrelazados. En un segundo experimento se implementará un interferómetro para medir las propiedades de polarización de materiales transparentes. En un tercer experimento se generará luz láser que contiene momento angular",
+		image: "/images/workshops/optica.jpg",
+		schedules: [
+			"Horario por confirmar"
 		]
 	}, {
 		name: "Nanoestructuras en la industria cosmética y su aplicación en cremas para la piel",
