@@ -178,11 +178,13 @@ router.workshops = [
 		]
 	}, {
 		name: "Óptica Moderna",
-		teacher: "Tallerista por confirmar",
+		teacher: "Dorilian Lopez",
 		body: "Utilización de lentes y energía para explorar el mundo de la óptica y sus beneficios. En este taller se aprenderá sobre experimentos modernos de óptica y fotónica. Los experimentos involucran temas de información cuántica y ondas electromagnéticas. En un experimento se trabajará con una fuente de pares de fotones para entender la generación de fotones entrelazados. En un segundo experimento se implementará un interferómetro para medir las propiedades de polarización de materiales transparentes. En un tercer experimento se generará luz láser que contiene momento angular",
 		image: "/images/workshops/optica.jpg",
 		schedules: [
-			"Horario por confirmar"
+			"Miércoles 7 - 17 a 19 hrs",
+			"Jueves 8 - 17 a 19 hrs",
+			"Miércoles 9 - 11:30  a 13:30 hrs"
 		]
 	}, {
 		name: "Nanoestructuras en la industria cosmética y su aplicación en cremas para la piel",
