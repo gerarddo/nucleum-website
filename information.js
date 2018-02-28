@@ -21,7 +21,7 @@ router.panelists = [
 		name: "PhD Elva Yadira Quiroz Rocha", 
 		conference: {
 				name: "Bacteria que crea y degrada plástico",
-				caption: "",
+				caption: "Uso de bacterias para la producción eficiente de plásticos biodegradables con alta pureza",
 				description: "Se identificó el sistema que permite a la bacteria Azotobacter vinelandii multiplicar por 10 su capacidad para producir dos tipos de plásticos biodegradables o biopolímeros, de extraordinaria pureza y nulo impacto ambiental. \n Ese sistema hace posible a la bacteria elegir las fuentes de carbono (alimento) que posteriormente convertirá en dos tipos de polímeros, ambos de interés biotecnológico por su gran potencial de aplicación en diversos campos, así como su capacidad para ser degradados por la misma bacteria que los produce."
 			},
 		schedule: "Miércoles 7 - 12:30 a 13:30 hrs",
@@ -35,7 +35,7 @@ router.panelists = [
 	}, {
 		name: "Dr. Germán Buitrón",
 		conference: {
-				name: "Energía limpia a partir de residuos",
+				name: "Obtención de productos de valor agregado a partir de aguas residuales",
 				caption: "Tratamiento biológico de aguas residuales y producción de biocombustibles gaseosos a partir de residuos.",
 				description: "Tratamiento de aguas residuales; Cinética, bioquímica y microbiología de la degradación de compuestos tóxicos; Producción de hidrógeno y electricidad a partir de residuos. \n La producción de biocombustibles a partir de microalgas es uno de sus proyectos vigentes. Un litro de biodiesel actualmente, en proceso industrial, cuesta 27 veces lo que un litro de diésel obtenido del petróleo. Entonces, en lugar de producir biodiesel, se interesó en la producción de biocombustibles gaseosos: metano e hidrógeno, por medio del uso de microalgas para el tratamiento de aguas residuales. "
 			},
@@ -217,14 +217,6 @@ router.workshops = [
 		image: "/images/workshops/nieve.jpg",
 		schedules: [
 			"Horario por confirmar"
-		]
-	}, {
-		name: "Gastronomía molecular",
-		teacher: "Esther Pérez Carrillo",
-		body: "También conocida como culinology, hace uso de químicos o combina aquellos que tengan compatibilidad en su composición molecular para elaborar platillos diferentes e innovadores. Se busca que aquel que lo consuma tenga una nueva experiencia en su paladar. En este taller tendrás la oportunidad de aprender sobre técnicas donde se transforman texturas y sabores para obtener un nuevo alimento.",
-		image: "/images/workshops/gastronomia.jpg",
-		schedules: [
-			"Jueves 8 - 8 a 10 hrs"
 		]
 	}, {
 		name: "Elaboración de cerveza enfoque casero ",
