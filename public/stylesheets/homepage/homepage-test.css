@@ -49,7 +49,7 @@ html {
 }
 .panelists-img-container img{
     margin: auto;
-    height: 432px;
+    height: 442px;
 }
 .panelists-header-container {
     margin-top: 40px;
@@ -86,7 +86,7 @@ html {
 }
 
 .panelists-content-container .row {
-    height: 400px;
+    height: 410px;
     margin-bottom: 40px;
     color: white;
 }
