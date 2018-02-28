@@ -97,7 +97,7 @@ html {
     display: block; 
     height: 33.333333%;
     padding: 10px;
-    font-size: 0.9em;
+    font-size: 0.87em;
 }
 
 .panelists-content-container .col-1-2 h3,
@@ -115,7 +115,7 @@ html {
 @media screen and (max-width: 1200px){
     .panelists-content-container .col-1-2,
     .panelists-content-container .col-1-1{
-        font-size: 0.85em;
+        font-size: 0.8em;
     }
 
     .panelists-content-container .col-1-2 h3,
