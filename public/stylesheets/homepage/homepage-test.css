@@ -145,7 +145,7 @@ html {
 @media screen and (max-width: 620px){
     .panelists-content-container .col-1-2,
     .panelists-content-container .col-1-1{
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .panelists-content-container .col-1-2 h3,
     .panelists-content-container .col-1-1 h3{
@@ -156,7 +156,7 @@ html {
 @media screen and (max-width: 445px){
     .panelists-content-container .col-1-2,
     .panelists-content-container .col-1-1{
-        font-size: 0.85em;
+        font-size: 0.8em;
     }
     .panelists-content-container .col-1-2 h3,
     .panelists-content-container .col-1-1 h3{
@@ -167,7 +167,7 @@ html {
 @media screen and (max-width: 360px){
     .panelists-content-container .col-1-2,
     .panelists-content-container .col-1-1{
-        font-size: 0.75em;
+        font-size: 0.69em;
     }
     .panelists-content-container .col-1-2 h3,
     .panelists-content-container .col-1-1 h3{
@@ -178,21 +178,21 @@ html {
 @media screen and (max-width: 335px){
     .panelists-content-container .col-1-2,
     .panelists-content-container .col-1-1{
-        font-size: 0.67em;
+        font-size: 0.6em;
     }
 }
 
 @media screen and (max-width: 280px){
     .panelists-content-container .col-1-2,
     .panelists-content-container .col-1-1{
-        font-size: 0.65em;
+        font-size: 0.58em;
     }
 }
 
 @media screen and (max-width: 250px){
     .panelists-content-container .col-1-2,
     .panelists-content-container .col-1-1{
-        font-size: 0.6em;
+        font-size: 0.55em;
     }
 }
 
